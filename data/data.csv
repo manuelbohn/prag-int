@@ -1,0 +1,1889 @@
+id,experiment,trial,manipulation,item,correct
+id4,Experiment 1a,1,Test - Point,Frog,1
+id4,Experiment 1a,2,Test - Point + Label,Mouse,1
+id4,Experiment 1a,3,Test - Point + Label,Bunny,1
+id4,Experiment 1a,4,Test - Look,Pig,1
+id4,Experiment 1a,5,Test - Look + Label,Tiger,1
+id4,Experiment 1a,6,Test - Look,Bear,1
+id4,Experiment 1a,7,Test - Look + Label,Dog,1
+id4,Experiment 1a,8,Test - Point,Elephant,1
+id10,Experiment 1a,1,Test - Point,Elephant,1
+id10,Experiment 1a,2,Test - Point + Label,Pig,0
+id10,Experiment 1a,3,Test - Point + Label,Frog,1
+id10,Experiment 1a,4,Test - Point,Bunny,1
+id10,Experiment 1a,5,Test - Look + Label,Cat,1
+id10,Experiment 1a,6,Test - Look,Mouse,1
+id10,Experiment 1a,7,Test - Look + Label,Bear,1
+id10,Experiment 1a,8,Test - Look,Monkey,1
+id12,Experiment 1a,1,Test - Look + Label,Dog,1
+id12,Experiment 1a,2,Test - Point,Sheep,1
+id12,Experiment 1a,3,Test - Point + Label,Bear,0
+id12,Experiment 1a,4,Test - Look,Bunny,1
+id12,Experiment 1a,5,Test - Point,Pig,1
+id12,Experiment 1a,6,Test - Look + Label,Monkey,0
+id12,Experiment 1a,7,Test - Look,Frog,1
+id12,Experiment 1a,8,Test - Point + Label,Tiger,0
+id14,Experiment 1a,1,Test - Look + Label,Tiger,1
+id14,Experiment 1a,2,Test - Look,Mouse,1
+id14,Experiment 1a,3,Test - Point + Label,Bunny,1
+id14,Experiment 1a,4,Test - Point,Bear,0
+id14,Experiment 1a,5,Test - Look,Monkey,1
+id14,Experiment 1a,6,Test - Point + Label,Sheep,1
+id14,Experiment 1a,7,Test - Look + Label,Frog,1
+id14,Experiment 1a,8,Test - Point,Pig,1
+id17,Experiment 1a,1,Test - Look + Label,Frog,1
+id17,Experiment 1a,2,Test - Look,Bunny,1
+id17,Experiment 1a,3,Test - Point,Elephant,0
+id17,Experiment 1a,4,Test - Point + Label,Pig,0
+id17,Experiment 1a,5,Test - Look,Dog,1
+id17,Experiment 1a,6,Test - Look + Label,Monkey,0
+id17,Experiment 1a,7,Test - Point,Mouse,0
+id17,Experiment 1a,8,Test - Point + Label,Tiger,0
+id23,Experiment 1a,1,Test - Look + Label,Sheep,1
+id23,Experiment 1a,2,Test - Point,Bear,0
+id23,Experiment 1a,3,Test - Point,Frog,1
+id23,Experiment 1a,4,Test - Point + Label,Monkey,1
+id23,Experiment 1a,5,Test - Look + Label,Dog,0
+id23,Experiment 1a,6,Test - Look,Elephant,1
+id23,Experiment 1a,7,Test - Look,Pig,1
+id23,Experiment 1a,8,Test - Point + Label,Tiger,1
+id24,Experiment 1a,1,Test - Look,Monkey,1
+id24,Experiment 1a,2,Test - Point + Label,Elephant,1
+id24,Experiment 1a,3,Test - Point + Label,Frog,1
+id24,Experiment 1a,4,Test - Look + Label,Pig,1
+id24,Experiment 1a,5,Test - Point,Bunny,1
+id24,Experiment 1a,6,Test - Look + Label,Bear,1
+id24,Experiment 1a,7,Test - Point,Tiger,1
+id24,Experiment 1a,8,Test - Look,Cat,1
+id25,Experiment 1a,1,Test - Point + Label,Sheep,1
+id25,Experiment 1a,2,Test - Look,Mouse,1
+id25,Experiment 1a,3,Test - Point,Dog,0
+id25,Experiment 1a,4,Test - Look + Label,Frog,0
+id25,Experiment 1a,5,Test - Point,Elephant,1
+id25,Experiment 1a,6,Test - Point + Label,Pig,1
+id25,Experiment 1a,7,Test - Look + Label,Monkey,1
+id25,Experiment 1a,8,Test - Look,Bunny,0
+id27,Experiment 1a,1,Test - Look,Mouse,0
+id27,Experiment 1a,2,Test - Point,Elephant,1
+id27,Experiment 1a,3,Test - Point + Label,Cat,0
+id27,Experiment 1a,4,Test - Look + Label,Dog,1
+id27,Experiment 1a,5,Test - Look,Pig,1
+id27,Experiment 1a,6,Test - Point + Label,Monkey,1
+id27,Experiment 1a,7,Test - Look + Label,Sheep,1
+id27,Experiment 1a,8,Test - Point,Tiger,0
+id30,Experiment 1a,1,Test - Look,Bear,0
+id30,Experiment 1a,2,Test - Point + Label,Mouse,1
+id30,Experiment 1a,3,Test - Point,Bunny,1
+id30,Experiment 1a,4,Test - Point + Label,Pig,1
+id30,Experiment 1a,5,Test - Look + Label,Frog,0
+id30,Experiment 1a,6,Test - Look + Label,Sheep,1
+id30,Experiment 1a,7,Test - Look,Monkey,1
+id30,Experiment 1a,8,Test - Point,Dog,0
+id34,Experiment 1a,1,Test - Point,Tiger,1
+id34,Experiment 1a,2,Test - Look,Monkey,1
+id34,Experiment 1a,3,Test - Point,Bunny,1
+id34,Experiment 1a,4,Test - Look,Bear,1
+id34,Experiment 1a,5,Test - Point + Label,Dog,0
+id34,Experiment 1a,6,Test - Point + Label,Elephant,1
+id34,Experiment 1a,7,Test - Look + Label,Mouse,0
+id34,Experiment 1a,8,Test - Look + Label,Frog,1
+id37,Experiment 1a,1,Test - Point + Label,Cat,0
+id37,Experiment 1a,2,Test - Look,Elephant,0
+id37,Experiment 1a,3,Test - Point + Label,Tiger,0
+id37,Experiment 1a,4,Test - Look + Label,Dog,1
+id37,Experiment 1a,5,Test - Point,Sheep,0
+id37,Experiment 1a,6,Test - Look + Label,Bear,1
+id37,Experiment 1a,7,Test - Look,Pig,0
+id37,Experiment 1a,8,Test - Point,Bunny,0
+id47,Experiment 1a,1,Test - Point,Pig,1
+id47,Experiment 1a,2,Test - Point + Label,Bunny,1
+id47,Experiment 1a,3,Test - Point,Cat,1
+id47,Experiment 1a,4,Test - Point + Label,Sheep,1
+id47,Experiment 1a,5,Test - Look + Label,Mouse,1
+id47,Experiment 1a,6,Test - Look + Label,Monkey,1
+id47,Experiment 1a,7,Test - Look,Bear,0
+id47,Experiment 1a,8,Test - Look,Frog,1
+id50,Experiment 1a,1,Test - Look,Tiger,1
+id50,Experiment 1a,2,Test - Look + Label,Monkey,1
+id50,Experiment 1a,3,Test - Look + Label,Elephant,1
+id50,Experiment 1a,4,Test - Point + Label,Bear,1
+id50,Experiment 1a,5,Test - Point,Pig,1
+id50,Experiment 1a,6,Test - Point,Mouse,1
+id50,Experiment 1a,7,Test - Look,Sheep,0
+id50,Experiment 1a,8,Test - Point + Label,Bunny,1
+id53,Experiment 1a,1,Test - Point,Bunny,0
+id53,Experiment 1a,2,Test - Look + Label,Tiger,0
+id53,Experiment 1a,3,Test - Look + Label,Mouse,1
+id53,Experiment 1a,4,Test - Point + Label,Monkey,1
+id53,Experiment 1a,5,Test - Point + Label,Pig,1
+id53,Experiment 1a,6,Test - Point,Dog,1
+id53,Experiment 1a,7,Test - Look,Sheep,1
+id53,Experiment 1a,8,Test - Look,Frog,1
+id67,Experiment 1a,1,Test - Point + Label,Monkey,1
+id67,Experiment 1a,2,Test - Look,Mouse,1
+id67,Experiment 1a,3,Test - Point,Bunny,1
+id67,Experiment 1a,4,Test - Point + Label,Sheep,1
+id67,Experiment 1a,5,Test - Look + Label,Frog,1
+id67,Experiment 1a,6,Test - Look,Pig,1
+id67,Experiment 1a,7,Test - Look + Label,Dog,1
+id67,Experiment 1a,8,Test - Point,Bear,1
+id68,Experiment 1a,1,Test - Point + Label,Bunny,1
+id68,Experiment 1a,2,Test - Point + Label,Tiger,1
+id68,Experiment 1a,3,Test - Point,Dog,1
+id68,Experiment 1a,4,Test - Point,Monkey,1
+id68,Experiment 1a,5,Test - Look,Cat,1
+id68,Experiment 1a,6,Test - Look + Label,Bear,1
+id68,Experiment 1a,7,Test - Look + Label,Mouse,1
+id68,Experiment 1a,8,Test - Look,Elephant,1
+id70,Experiment 1a,1,Test - Point,Bunny,1
+id70,Experiment 1a,2,Test - Point + Label,Pig,1
+id70,Experiment 1a,3,Test - Look + Label,Mouse,1
+id70,Experiment 1a,4,Test - Point + Label,Sheep,1
+id70,Experiment 1a,5,Test - Look + Label,Frog,1
+id70,Experiment 1a,6,Test - Look,Monkey,1
+id70,Experiment 1a,7,Test - Point,Tiger,1
+id70,Experiment 1a,8,Test - Look,Dog,1
+id73,Experiment 1a,1,Test - Point + Label,Mouse,1
+id73,Experiment 1a,2,Test - Look + Label,Bunny,1
+id73,Experiment 1a,3,Test - Look + Label,Monkey,1
+id73,Experiment 1a,4,Test - Point,Tiger,1
+id73,Experiment 1a,5,Test - Point + Label,Pig,1
+id73,Experiment 1a,6,Test - Look,Frog,1
+id73,Experiment 1a,7,Test - Point,Cat,0
+id73,Experiment 1a,8,Test - Look,Bear,1
+id74,Experiment 1a,1,Test - Point + Label,Elephant,1
+id74,Experiment 1a,2,Test - Point + Label,Frog,1
+id74,Experiment 1a,3,Test - Look,Cat,1
+id74,Experiment 1a,4,Test - Look + Label,Dog,1
+id74,Experiment 1a,5,Test - Look,Tiger,1
+id74,Experiment 1a,6,Test - Look + Label,Pig,1
+id74,Experiment 1a,7,Test - Point,Bear,1
+id74,Experiment 1a,8,Test - Point,Sheep,1
+id77,Experiment 1a,1,Test - Point + Label,Mouse,1
+id77,Experiment 1a,2,Test - Point,Bunny,1
+id77,Experiment 1a,3,Test - Point,Cat,0
+id77,Experiment 1a,4,Test - Look + Label,Frog,0
+id77,Experiment 1a,5,Test - Look,Elephant,1
+id77,Experiment 1a,6,Test - Point + Label,Dog,1
+id77,Experiment 1a,7,Test - Look,Pig,0
+id77,Experiment 1a,8,Test - Look + Label,Bear,0
+id78,Experiment 1a,1,Test - Point,Bunny,1
+id78,Experiment 1a,2,Test - Point,Tiger,1
+id78,Experiment 1a,3,Test - Look + Label,Monkey,1
+id78,Experiment 1a,4,Test - Look,Cat,1
+id78,Experiment 1a,5,Test - Look,Pig,1
+id78,Experiment 1a,6,Test - Point + Label,Dog,1
+id78,Experiment 1a,7,Test - Look + Label,Sheep,1
+id78,Experiment 1a,8,Test - Point + Label,Bear,1
+id84,Experiment 1a,1,Test - Point + Label,Elephant,0
+id84,Experiment 1a,2,Test - Look + Label,Dog,0
+id84,Experiment 1a,3,Test - Look,Cat,1
+id84,Experiment 1a,4,Test - Look + Label,Monkey,1
+id84,Experiment 1a,5,Test - Point + Label,Sheep,1
+id84,Experiment 1a,6,Test - Point,Bear,1
+id84,Experiment 1a,7,Test - Look,Frog,0
+id84,Experiment 1a,8,Test - Point,Mouse,1
+id86,Experiment 1a,1,Test - Point,Frog,0
+id86,Experiment 1a,2,Test - Look + Label,Bunny,1
+id86,Experiment 1a,3,Test - Look,Pig,1
+id86,Experiment 1a,4,Test - Point + Label,Mouse,1
+id86,Experiment 1a,5,Test - Look + Label,Bear,1
+id86,Experiment 1a,6,Test - Point + Label,Sheep,1
+id86,Experiment 1a,7,Test - Point,Elephant,1
+id86,Experiment 1a,8,Test - Look,Monkey,1
+id96,Experiment 1a,1,Test - Look + Label,Elephant,1
+id96,Experiment 1a,2,Test - Look,Dog,1
+id96,Experiment 1a,3,Test - Point,Pig,1
+id96,Experiment 1a,4,Test - Point + Label,Mouse,1
+id96,Experiment 1a,5,Test - Point + Label,Sheep,1
+id96,Experiment 1a,6,Test - Point,Cat,1
+id96,Experiment 1a,7,Test - Look,Monkey,1
+id96,Experiment 1a,8,Test - Look + Label,Frog,1
+id97,Experiment 1a,1,Test - Point,Elephant,1
+id97,Experiment 1a,2,Test - Point + Label,Cat,1
+id97,Experiment 1a,3,Test - Point + Label,Bunny,1
+id97,Experiment 1a,4,Test - Look + Label,Monkey,1
+id97,Experiment 1a,5,Test - Point,Pig,1
+id97,Experiment 1a,6,Test - Look,Mouse,1
+id97,Experiment 1a,7,Test - Look + Label,Dog,1
+id97,Experiment 1a,8,Test - Look,Frog,1
+id100,Experiment 1a,1,Test - Look,Frog,1
+id100,Experiment 1a,2,Test - Look + Label,Sheep,1
+id100,Experiment 1a,3,Test - Look,Mouse,1
+id100,Experiment 1a,4,Test - Point,Monkey,1
+id100,Experiment 1a,5,Test - Point + Label,Pig,0
+id100,Experiment 1a,6,Test - Point,Cat,1
+id100,Experiment 1a,7,Test - Point + Label,Tiger,1
+id100,Experiment 1a,8,Test - Look + Label,Bunny,1
+id101,Experiment 1a,1,Test - Look,Mouse,1
+id101,Experiment 1a,2,Test - Look + Label,Bunny,1
+id101,Experiment 1a,3,Test - Point + Label,Frog,0
+id101,Experiment 1a,4,Test - Point,Cat,1
+id101,Experiment 1a,5,Test - Look + Label,Dog,1
+id101,Experiment 1a,6,Test - Point + Label,Monkey,1
+id101,Experiment 1a,7,Test - Point,Sheep,1
+id101,Experiment 1a,8,Test - Look,Elephant,1
+id111,Experiment 1a,1,Test - Look,Bunny,1
+id111,Experiment 1a,2,Test - Point,Cat,0
+id111,Experiment 1a,3,Test - Look,Mouse,0
+id111,Experiment 1a,4,Test - Point,Monkey,1
+id111,Experiment 1a,5,Test - Look + Label,Tiger,1
+id111,Experiment 1a,6,Test - Look + Label,Dog,1
+id111,Experiment 1a,7,Test - Point + Label,Bear,1
+id111,Experiment 1a,8,Test - Point + Label,Elephant,1
+id112,Experiment 1a,1,Test - Look + Label,Cat,1
+id112,Experiment 1a,2,Test - Look,Mouse,1
+id112,Experiment 1a,3,Test - Look,Tiger,1
+id112,Experiment 1a,4,Test - Point,Bunny,1
+id112,Experiment 1a,5,Test - Point + Label,Sheep,1
+id112,Experiment 1a,6,Test - Point + Label,Elephant,0
+id112,Experiment 1a,7,Test - Point,Bear,0
+id112,Experiment 1a,8,Test - Look + Label,Dog,0
+id120,Experiment 1a,1,Test - Point + Label,Frog,1
+id120,Experiment 1a,2,Test - Look + Label,Mouse,1
+id120,Experiment 1a,3,Test - Point,Bunny,0
+id120,Experiment 1a,4,Test - Look + Label,Bear,0
+id120,Experiment 1a,5,Test - Look,Elephant,1
+id120,Experiment 1a,6,Test - Point + Label,Tiger,1
+id120,Experiment 1a,7,Test - Look,Dog,1
+id120,Experiment 1a,8,Test - Point,Pig,0
+id121,Experiment 1a,1,Test - Look + Label,Elephant,1
+id121,Experiment 1a,2,Test - Point,Cat,1
+id121,Experiment 1a,3,Test - Point + Label,Monkey,1
+id121,Experiment 1a,4,Test - Look + Label,Dog,1
+id121,Experiment 1a,5,Test - Point,Pig,1
+id121,Experiment 1a,6,Test - Look,Tiger,1
+id121,Experiment 1a,7,Test - Look,Bear,1
+id121,Experiment 1a,8,Test - Point + Label,Sheep,0
+id124,Experiment 1a,1,Test - Point + Label,Mouse,1
+id124,Experiment 1a,2,Test - Look,Monkey,1
+id124,Experiment 1a,3,Test - Point + Label,Frog,1
+id124,Experiment 1a,4,Test - Look + Label,Bunny,1
+id124,Experiment 1a,5,Test - Look,Sheep,1
+id124,Experiment 1a,6,Test - Point,Elephant,1
+id124,Experiment 1a,7,Test - Point,Pig,1
+id124,Experiment 1a,8,Test - Look + Label,Bear,1
+id132,Experiment 1a,1,Test - Look,Mouse,0
+id132,Experiment 1a,2,Test - Point + Label,Sheep,1
+id132,Experiment 1a,3,Test - Look,Monkey,1
+id132,Experiment 1a,4,Test - Point,Pig,1
+id132,Experiment 1a,5,Test - Point,Frog,0
+id132,Experiment 1a,6,Test - Point + Label,Dog,1
+id132,Experiment 1a,7,Test - Look + Label,Bunny,1
+id132,Experiment 1a,8,Test - Look + Label,Tiger,1
+id141,Experiment 1a,1,Test - Look + Label,Bunny,1
+id141,Experiment 1a,2,Test - Point + Label,Frog,0
+id141,Experiment 1a,3,Test - Look,Tiger,0
+id141,Experiment 1a,4,Test - Point + Label,Cat,1
+id141,Experiment 1a,5,Test - Look,Elephant,1
+id141,Experiment 1a,6,Test - Look + Label,Pig,1
+id141,Experiment 1a,7,Test - Point,Bear,1
+id141,Experiment 1a,8,Test - Point,Dog,1
+id143,Experiment 1a,1,Test - Look,Bunny,1
+id143,Experiment 1a,2,Test - Point,Tiger,1
+id143,Experiment 1a,3,Test - Point,Bear,1
+id143,Experiment 1a,4,Test - Look + Label,Frog,1
+id143,Experiment 1a,5,Test - Look,Pig,1
+id143,Experiment 1a,6,Test - Look + Label,Sheep,1
+id143,Experiment 1a,7,Test - Point + Label,Monkey,1
+id143,Experiment 1a,8,Test - Point + Label,Dog,1
+id147,Experiment 1a,1,Test - Point,Elephant,1
+id147,Experiment 1a,2,Test - Look,Frog,1
+id147,Experiment 1a,3,Test - Look,Tiger,1
+id147,Experiment 1a,4,Test - Look + Label,Cat,1
+id147,Experiment 1a,5,Test - Point + Label,Pig,1
+id147,Experiment 1a,6,Test - Point,Bear,1
+id147,Experiment 1a,7,Test - Point + Label,Dog,1
+id147,Experiment 1a,8,Test - Look + Label,Sheep,1
+id152,Experiment 1a,1,Test - Point,Pig,1
+id152,Experiment 1a,2,Test - Point + Label,Dog,1
+id152,Experiment 1a,3,Test - Look,Frog,0
+id152,Experiment 1a,4,Test - Look + Label,Bunny,1
+id152,Experiment 1a,5,Test - Look + Label,Cat,0
+id152,Experiment 1a,6,Test - Look,Sheep,1
+id152,Experiment 1a,7,Test - Point,Tiger,0
+id152,Experiment 1a,8,Test - Point + Label,Bear,0
+id157,Experiment 1a,1,Test - Point,Sheep,0
+id157,Experiment 1a,2,Test - Look,Bear,1
+id157,Experiment 1a,3,Test - Point,Cat,1
+id157,Experiment 1a,4,Test - Point + Label,Monkey,0
+id157,Experiment 1a,5,Test - Look + Label,Elephant,1
+id157,Experiment 1a,6,Test - Point + Label,Dog,0
+id157,Experiment 1a,7,Test - Look,Bunny,0
+id157,Experiment 1a,8,Test - Look + Label,Mouse,1
+id158,Experiment 1a,1,Test - Look + Label,Monkey,1
+id158,Experiment 1a,2,Test - Look,Cat,1
+id158,Experiment 1a,3,Test - Look + Label,Bear,1
+id158,Experiment 1a,4,Test - Look,Frog,1
+id158,Experiment 1a,5,Test - Point,Elephant,1
+id158,Experiment 1a,6,Test - Point,Bunny,1
+id158,Experiment 1a,7,Test - Point + Label,Dog,1
+id158,Experiment 1a,8,Test - Point + Label,Pig,1
+id159,Experiment 1a,1,Test - Point + Label,Tiger,1
+id159,Experiment 1a,2,Test - Point + Label,Monkey,1
+id159,Experiment 1a,3,Test - Look,Frog,1
+id159,Experiment 1a,4,Test - Look + Label,Dog,1
+id159,Experiment 1a,5,Test - Point,Elephant,1
+id159,Experiment 1a,6,Test - Point,Bunny,1
+id159,Experiment 1a,7,Test - Look,Bear,1
+id159,Experiment 1a,8,Test - Look + Label,Mouse,1
+id172,Experiment 1a,1,Test - Look,Bunny,1
+id172,Experiment 1a,2,Test - Look + Label,Cat,0
+id172,Experiment 1a,3,Test - Point,Tiger,1
+id172,Experiment 1a,4,Test - Point + Label,Elephant,1
+id172,Experiment 1a,5,Test - Point + Label,Pig,1
+id172,Experiment 1a,6,Test - Look,Dog,1
+id172,Experiment 1a,7,Test - Look + Label,Mouse,1
+id172,Experiment 1a,8,Test - Point,Bear,1
+id175,Experiment 1a,1,Test - Look + Label,Sheep,0
+id175,Experiment 1a,2,Test - Point,Tiger,0
+id175,Experiment 1a,3,Test - Look + Label,Frog,1
+id175,Experiment 1a,4,Test - Point + Label,Dog,1
+id175,Experiment 1a,5,Test - Point,Elephant,1
+id175,Experiment 1a,6,Test - Point + Label,Bear,1
+id175,Experiment 1a,7,Test - Look,Pig,1
+id175,Experiment 1a,8,Test - Look,Bunny,0
+id176,Experiment 1a,1,Test - Look + Label,Cat,1
+id176,Experiment 1a,2,Test - Point,Bunny,1
+id176,Experiment 1a,3,Test - Look,Pig,1
+id176,Experiment 1a,4,Test - Look + Label,Mouse,1
+id176,Experiment 1a,5,Test - Look,Tiger,1
+id176,Experiment 1a,6,Test - Point,Sheep,1
+id176,Experiment 1a,7,Test - Point + Label,Bear,1
+id176,Experiment 1a,8,Test - Point + Label,Frog,0
+id185,Experiment 1a,1,Test - Look,Mouse,1
+id185,Experiment 1a,2,Test - Point + Label,Bunny,0
+id185,Experiment 1a,3,Test - Look + Label,Cat,1
+id185,Experiment 1a,4,Test - Look + Label,Tiger,0
+id185,Experiment 1a,5,Test - Look,Sheep,1
+id185,Experiment 1a,6,Test - Point,Dog,1
+id185,Experiment 1a,7,Test - Point + Label,Pig,1
+id185,Experiment 1a,8,Test - Point,Bear,0
+id190,Experiment 1a,1,Test - Point,Bunny,1
+id190,Experiment 1a,2,Test - Look,Frog,1
+id190,Experiment 1a,3,Test - Look + Label,Tiger,1
+id190,Experiment 1a,4,Test - Point + Label,Bear,1
+id190,Experiment 1a,5,Test - Look,Mouse,0
+id190,Experiment 1a,6,Test - Point,Dog,1
+id190,Experiment 1a,7,Test - Point + Label,Sheep,1
+id190,Experiment 1a,8,Test - Look + Label,Monkey,1
+id193,Experiment 1a,1,Test - Point,Sheep,0
+id193,Experiment 1a,2,Test - Point + Label,Mouse,1
+id193,Experiment 1a,3,Test - Point,Tiger,1
+id193,Experiment 1a,4,Test - Point + Label,Bear,1
+id193,Experiment 1a,5,Test - Look,Dog,1
+id193,Experiment 1a,6,Test - Look + Label,Monkey,0
+id193,Experiment 1a,7,Test - Look + Label,Elephant,0
+id193,Experiment 1a,8,Test - Look,Bunny,1
+id195,Experiment 1a,1,Test - Point,Sheep,1
+id195,Experiment 1a,2,Test - Look,Frog,1
+id195,Experiment 1a,3,Test - Look + Label,Tiger,0
+id195,Experiment 1a,4,Test - Point + Label,Elephant,1
+id195,Experiment 1a,5,Test - Look,Monkey,1
+id195,Experiment 1a,6,Test - Point,Mouse,1
+id195,Experiment 1a,7,Test - Point + Label,Dog,1
+id195,Experiment 1a,8,Test - Look + Label,Cat,1
+id196,Experiment 1a,1,Test - Look + Label,Mouse,1
+id196,Experiment 1a,2,Test - Look,Pig,0
+id196,Experiment 1a,3,Test - Point + Label,Bunny,0
+id196,Experiment 1a,4,Test - Point,Cat,0
+id196,Experiment 1a,5,Test - Point,Monkey,1
+id196,Experiment 1a,6,Test - Look,Tiger,0
+id196,Experiment 1a,7,Test - Look + Label,Bear,0
+id196,Experiment 1a,8,Test - Point + Label,Elephant,1
+id197,Experiment 1a,1,Test - Point,Bunny,1
+id197,Experiment 1a,2,Test - Look,Mouse,1
+id197,Experiment 1a,3,Test - Point,Frog,1
+id197,Experiment 1a,4,Test - Look + Label,Pig,1
+id197,Experiment 1a,5,Test - Point + Label,Tiger,1
+id197,Experiment 1a,6,Test - Look + Label,Dog,1
+id197,Experiment 1a,7,Test - Point + Label,Sheep,1
+id197,Experiment 1a,8,Test - Look,Elephant,1
+id200,Experiment 1a,1,Test - Point + Label,Pig,1
+id200,Experiment 1a,2,Test - Point + Label,Monkey,0
+id200,Experiment 1a,3,Test - Point,Bear,0
+id200,Experiment 1a,4,Test - Look + Label,Bunny,0
+id200,Experiment 1a,5,Test - Look,Dog,1
+id200,Experiment 1a,6,Test - Point,Elephant,1
+id200,Experiment 1a,7,Test - Look + Label,Frog,1
+id200,Experiment 1a,8,Test - Look,Tiger,1
+id206,Experiment 1a,1,Test - Point + Label,Bunny,1
+id206,Experiment 1a,2,Test - Point,Cat,0
+id206,Experiment 1a,3,Test - Look + Label,Elephant,1
+id206,Experiment 1a,4,Test - Point + Label,Pig,1
+id206,Experiment 1a,5,Test - Point,Mouse,1
+id206,Experiment 1a,6,Test - Look + Label,Dog,1
+id206,Experiment 1a,7,Test - Look,Monkey,1
+id206,Experiment 1a,8,Test - Look,Frog,1
+id210,Experiment 1a,1,Test - Point,Bunny,1
+id210,Experiment 1a,2,Test - Look,Bear,1
+id210,Experiment 1a,3,Test - Point + Label,Frog,1
+id210,Experiment 1a,4,Test - Look,Mouse,1
+id210,Experiment 1a,5,Test - Point + Label,Dog,1
+id210,Experiment 1a,6,Test - Point,Elephant,1
+id210,Experiment 1a,7,Test - Look + Label,Monkey,1
+id210,Experiment 1a,8,Test - Look + Label,Pig,1
+id212,Experiment 1a,1,Test - Look,Cat,0
+id212,Experiment 1a,2,Test - Point,Mouse,1
+id212,Experiment 1a,3,Test - Look,Dog,0
+id212,Experiment 1a,4,Test - Look + Label,Sheep,1
+id212,Experiment 1a,5,Test - Point + Label,Pig,1
+id212,Experiment 1a,6,Test - Point,Bunny,1
+id212,Experiment 1a,7,Test - Look + Label,Bear,0
+id212,Experiment 1a,8,Test - Point + Label,Frog,1
+id218,Experiment 1a,1,Test - Look + Label,Pig,1
+id218,Experiment 1a,2,Test - Look + Label,Bunny,1
+id218,Experiment 1a,3,Test - Look,Mouse,1
+id218,Experiment 1a,4,Test - Point + Label,Elephant,1
+id218,Experiment 1a,5,Test - Point,Dog,1
+id218,Experiment 1a,6,Test - Point + Label,Frog,1
+id218,Experiment 1a,7,Test - Point,Bear,1
+id218,Experiment 1a,8,Test - Look,Monkey,0
+id226,Experiment 1a,1,Test - Look,Bunny,1
+id226,Experiment 1a,2,Test - Point,Cat,1
+id226,Experiment 1a,3,Test - Look + Label,Bear,0
+id226,Experiment 1a,4,Test - Look + Label,Tiger,1
+id226,Experiment 1a,5,Test - Point + Label,Frog,1
+id226,Experiment 1a,6,Test - Point,Dog,1
+id226,Experiment 1a,7,Test - Look,Elephant,1
+id226,Experiment 1a,8,Test - Point + Label,Monkey,1
+id227,Experiment 1a,1,Test - Point,Mouse,1
+id227,Experiment 1a,2,Test - Point + Label,Bear,0
+id227,Experiment 1a,3,Test - Look,Tiger,1
+id227,Experiment 1a,4,Test - Point,Dog,1
+id227,Experiment 1a,5,Test - Look,Bunny,0
+id227,Experiment 1a,6,Test - Look + Label,Elephant,1
+id227,Experiment 1a,7,Test - Look + Label,Monkey,1
+id227,Experiment 1a,8,Test - Point + Label,Frog,0
+id3,Experiment 1b,1,Test - Look,Cat,1
+id3,Experiment 1b,2,Test - Look,Sheep,1
+id3,Experiment 1b,3,Test - Look,Tiger,1
+id3,Experiment 1b,4,Test - Look,Monkey,1
+id3,Experiment 1b,5,Test - Look,Bear,1
+id3,Experiment 1b,6,Test - Look,Dog,1
+id3,Experiment 1b,7,Test - Look,Elephant,1
+id3,Experiment 1b,8,Test - Look,Mouse,1
+id62,Experiment 1b,1,Test - Look,Dog,1
+id62,Experiment 1b,2,Test - Look,Sheep,1
+id62,Experiment 1b,3,Test - Look,Monkey,1
+id62,Experiment 1b,4,Test - Look,Mouse,1
+id62,Experiment 1b,5,Test - Look,Bunny,1
+id62,Experiment 1b,6,Test - Look,Tiger,1
+id62,Experiment 1b,7,Test - Look,Bear,1
+id62,Experiment 1b,8,Test - Look,Cat,0
+id128,Experiment 1b,1,Test - Look,Bunny,1
+id128,Experiment 1b,2,Test - Look,Monkey,0
+id128,Experiment 1b,3,Test - Look,Tiger,0
+id128,Experiment 1b,4,Test - Look,Frog,1
+id128,Experiment 1b,5,Test - Look,Bear,0
+id128,Experiment 1b,6,Test - Look,Pig,1
+id128,Experiment 1b,7,Test - Look,Elephant,0
+id128,Experiment 1b,8,Test - Look,Mouse,1
+id134,Experiment 1b,1,Test - Look,Tiger,1
+id134,Experiment 1b,2,Test - Look,Frog,1
+id134,Experiment 1b,3,Test - Look,Mouse,1
+id134,Experiment 1b,4,Test - Look,Elephant,1
+id134,Experiment 1b,5,Test - Look,Pig,1
+id134,Experiment 1b,6,Test - Look,Monkey,1
+id134,Experiment 1b,7,Test - Look,Bunny,1
+id134,Experiment 1b,8,Test - Look,Bear,1
+id136,Experiment 1b,1,Test - Look,Tiger,0
+id136,Experiment 1b,2,Test - Look,Bunny,0
+id136,Experiment 1b,3,Test - Look,Frog,0
+id136,Experiment 1b,4,Test - Look,Monkey,1
+id136,Experiment 1b,5,Test - Look,Cat,1
+id136,Experiment 1b,6,Test - Look,Bear,1
+id136,Experiment 1b,7,Test - Look,Elephant,1
+id136,Experiment 1b,8,Test - Look,Sheep,1
+id170,Experiment 1b,1,Test - Look,Elephant,1
+id170,Experiment 1b,2,Test - Look,Frog,1
+id170,Experiment 1b,3,Test - Look,Mouse,1
+id170,Experiment 1b,4,Test - Look,Monkey,1
+id170,Experiment 1b,5,Test - Look,Pig,1
+id170,Experiment 1b,6,Test - Look,Dog,1
+id170,Experiment 1b,7,Test - Look,Cat,1
+id170,Experiment 1b,8,Test - Look,Sheep,1
+id171,Experiment 1b,1,Test - Look,Bunny,1
+id171,Experiment 1b,2,Test - Look,Frog,1
+id171,Experiment 1b,3,Test - Look,Monkey,1
+id171,Experiment 1b,4,Test - Look,Pig,1
+id171,Experiment 1b,5,Test - Look,Mouse,1
+id171,Experiment 1b,6,Test - Look,Tiger,1
+id171,Experiment 1b,7,Test - Look,Sheep,1
+id171,Experiment 1b,8,Test - Look,Dog,1
+id178,Experiment 1b,1,Test - Look,Mouse,0
+id178,Experiment 1b,2,Test - Look,Elephant,0
+id178,Experiment 1b,3,Test - Look,Sheep,0
+id178,Experiment 1b,4,Test - Look,Monkey,0
+id178,Experiment 1b,5,Test - Look,Frog,0
+id178,Experiment 1b,6,Test - Look,Dog,0
+id178,Experiment 1b,7,Test - Look,Pig,0
+id178,Experiment 1b,8,Test - Look,Bear,0
+id181,Experiment 1b,1,Test - Look,Cat,1
+id181,Experiment 1b,2,Test - Look,Sheep,0
+id181,Experiment 1b,3,Test - Look,Bear,0
+id181,Experiment 1b,4,Test - Look,Tiger,0
+id181,Experiment 1b,5,Test - Look,Pig,1
+id181,Experiment 1b,6,Test - Look,Elephant,0
+id181,Experiment 1b,7,Test - Look,Monkey,0
+id181,Experiment 1b,8,Test - Look,Dog,1
+id201,Experiment 1b,1,Test - Look,Tiger,1
+id201,Experiment 1b,2,Test - Look,Monkey,1
+id201,Experiment 1b,3,Test - Look,Frog,1
+id201,Experiment 1b,4,Test - Look,Bunny,1
+id201,Experiment 1b,5,Test - Look,Pig,1
+id201,Experiment 1b,6,Test - Look,Bear,1
+id201,Experiment 1b,7,Test - Look,Elephant,1
+id201,Experiment 1b,8,Test - Look,Dog,1
+id220,Experiment 1b,1,Test - Look,Bunny,1
+id220,Experiment 1b,2,Test - Look,Cat,1
+id220,Experiment 1b,3,Test - Look,Mouse,1
+id220,Experiment 1b,4,Test - Look,Tiger,1
+id220,Experiment 1b,5,Test - Look,Dog,1
+id220,Experiment 1b,6,Test - Look,Monkey,1
+id220,Experiment 1b,7,Test - Look,Bear,1
+id220,Experiment 1b,8,Test - Look,Sheep,1
+id222,Experiment 1b,1,Test - Look,Elephant,1
+id222,Experiment 1b,2,Test - Look,Frog,1
+id222,Experiment 1b,3,Test - Look,Bear,1
+id222,Experiment 1b,4,Test - Look,Mouse,1
+id222,Experiment 1b,5,Test - Look,Pig,1
+id222,Experiment 1b,6,Test - Look,Bunny,1
+id222,Experiment 1b,7,Test - Look,Tiger,1
+id222,Experiment 1b,8,Test - Look,Dog,1
+id230,Experiment 1b,1,Test - Look,Mouse,1
+id230,Experiment 1b,2,Test - Look,Bunny,1
+id230,Experiment 1b,3,Test - Look,Bear,1
+id230,Experiment 1b,4,Test - Look,Tiger,1
+id230,Experiment 1b,5,Test - Look,Pig,1
+id230,Experiment 1b,6,Test - Look,Dog,1
+id230,Experiment 1b,7,Test - Look,Elephant,1
+id230,Experiment 1b,8,Test - Look,Monkey,1
+id18,Experiment 1b,1,Test - Look + Label,Mouse,1
+id18,Experiment 1b,2,Test - Look + Label,Sheep,1
+id18,Experiment 1b,3,Test - Look + Label,Frog,1
+id18,Experiment 1b,4,Test - Look + Label,Dog,1
+id18,Experiment 1b,5,Test - Look + Label,Monkey,1
+id18,Experiment 1b,6,Test - Look + Label,Tiger,1
+id18,Experiment 1b,7,Test - Look + Label,Elephant,1
+id18,Experiment 1b,8,Test - Look + Label,Bear,1
+id33,Experiment 1b,1,Test - Look + Label,Bunny,0
+id33,Experiment 1b,2,Test - Look + Label,Monkey,0
+id33,Experiment 1b,3,Test - Look + Label,Frog,1
+id33,Experiment 1b,4,Test - Look + Label,Mouse,0
+id33,Experiment 1b,5,Test - Look + Label,Cat,0
+id33,Experiment 1b,6,Test - Look + Label,Dog,1
+id33,Experiment 1b,7,Test - Look + Label,Sheep,1
+id33,Experiment 1b,8,Test - Look + Label,Bear,0
+id36,Experiment 1b,1,Test - Look + Label,Dog,0
+id36,Experiment 1b,2,Test - Look + Label,Sheep,1
+id36,Experiment 1b,3,Test - Look + Label,Bear,1
+id36,Experiment 1b,4,Test - Look + Label,Elephant,1
+id36,Experiment 1b,5,Test - Look + Label,Monkey,1
+id36,Experiment 1b,6,Test - Look + Label,Pig,1
+id36,Experiment 1b,7,Test - Look + Label,Mouse,1
+id36,Experiment 1b,8,Test - Look + Label,Frog,1
+id38,Experiment 1b,1,Test - Look + Label,Cat,1
+id38,Experiment 1b,2,Test - Look + Label,Bunny,1
+id38,Experiment 1b,3,Test - Look + Label,Mouse,1
+id38,Experiment 1b,4,Test - Look + Label,Monkey,1
+id38,Experiment 1b,5,Test - Look + Label,Pig,1
+id38,Experiment 1b,6,Test - Look + Label,Dog,1
+id38,Experiment 1b,7,Test - Look + Label,Sheep,1
+id38,Experiment 1b,8,Test - Look + Label,Frog,1
+id43,Experiment 1b,1,Test - Look + Label,Sheep,0
+id43,Experiment 1b,2,Test - Look + Label,Cat,0
+id43,Experiment 1b,3,Test - Look + Label,Dog,1
+id43,Experiment 1b,4,Test - Look + Label,Frog,1
+id43,Experiment 1b,5,Test - Look + Label,Monkey,1
+id43,Experiment 1b,6,Test - Look + Label,Bear,0
+id43,Experiment 1b,7,Test - Look + Label,Elephant,1
+id43,Experiment 1b,8,Test - Look + Label,Tiger,1
+id92,Experiment 1b,1,Test - Look + Label,Frog,1
+id92,Experiment 1b,2,Test - Look + Label,Elephant,1
+id92,Experiment 1b,3,Test - Look + Label,Cat,1
+id92,Experiment 1b,4,Test - Look + Label,Dog,1
+id92,Experiment 1b,5,Test - Look + Label,Sheep,1
+id92,Experiment 1b,6,Test - Look + Label,Mouse,1
+id92,Experiment 1b,7,Test - Look + Label,Tiger,1
+id92,Experiment 1b,8,Test - Look + Label,Bear,1
+id95,Experiment 1b,1,Test - Look + Label,Dog,0
+id95,Experiment 1b,2,Test - Look + Label,Frog,1
+id95,Experiment 1b,3,Test - Look + Label,Sheep,0
+id95,Experiment 1b,4,Test - Look + Label,Tiger,0
+id95,Experiment 1b,5,Test - Look + Label,Elephant,0
+id95,Experiment 1b,6,Test - Look + Label,Monkey,1
+id95,Experiment 1b,7,Test - Look + Label,Pig,1
+id95,Experiment 1b,8,Test - Look + Label,Bear,0
+id119,Experiment 1b,1,Test - Look + Label,Tiger,1
+id119,Experiment 1b,2,Test - Look + Label,Bunny,1
+id119,Experiment 1b,3,Test - Look + Label,Monkey,0
+id119,Experiment 1b,4,Test - Look + Label,Sheep,1
+id119,Experiment 1b,5,Test - Look + Label,Dog,1
+id119,Experiment 1b,6,Test - Look + Label,Mouse,1
+id119,Experiment 1b,7,Test - Look + Label,Pig,0
+id119,Experiment 1b,8,Test - Look + Label,Bear,1
+id123,Experiment 1b,1,Test - Look + Label,Bunny,1
+id123,Experiment 1b,2,Test - Look + Label,Cat,0
+id123,Experiment 1b,3,Test - Look + Label,Pig,1
+id123,Experiment 1b,4,Test - Look + Label,Sheep,0
+id123,Experiment 1b,5,Test - Look + Label,Mouse,1
+id123,Experiment 1b,6,Test - Look + Label,Monkey,1
+id123,Experiment 1b,7,Test - Look + Label,Dog,1
+id123,Experiment 1b,8,Test - Look + Label,Frog,0
+id168,Experiment 1b,1,Test - Look + Label,Frog,1
+id168,Experiment 1b,2,Test - Look + Label,Elephant,1
+id168,Experiment 1b,3,Test - Look + Label,Pig,1
+id168,Experiment 1b,4,Test - Look + Label,Cat,1
+id168,Experiment 1b,5,Test - Look + Label,Monkey,1
+id168,Experiment 1b,6,Test - Look + Label,Bear,1
+id168,Experiment 1b,7,Test - Look + Label,Sheep,1
+id168,Experiment 1b,8,Test - Look + Label,Dog,1
+id199,Experiment 1b,1,Test - Look + Label,Cat,1
+id199,Experiment 1b,2,Test - Look + Label,Mouse,1
+id199,Experiment 1b,3,Test - Look + Label,Elephant,1
+id199,Experiment 1b,4,Test - Look + Label,Tiger,1
+id199,Experiment 1b,5,Test - Look + Label,Monkey,1
+id199,Experiment 1b,6,Test - Look + Label,Dog,1
+id199,Experiment 1b,7,Test - Look + Label,Bear,1
+id199,Experiment 1b,8,Test - Look + Label,Bunny,1
+id15,Experiment 1b,1,Test - Point,Cat,1
+id15,Experiment 1b,2,Test - Point,Frog,1
+id15,Experiment 1b,3,Test - Point,Bunny,0
+id15,Experiment 1b,4,Test - Point,Tiger,0
+id15,Experiment 1b,5,Test - Point,Monkey,1
+id15,Experiment 1b,6,Test - Point,Bear,1
+id15,Experiment 1b,7,Test - Point,Dog,1
+id15,Experiment 1b,8,Test - Point,Elephant,0
+id26,Experiment 1b,1,Test - Point,Bear,0
+id26,Experiment 1b,2,Test - Point,Cat,1
+id26,Experiment 1b,3,Test - Point,Monkey,1
+id26,Experiment 1b,4,Test - Point,Bunny,1
+id26,Experiment 1b,5,Test - Point,Elephant,1
+id26,Experiment 1b,6,Test - Point,Dog,1
+id26,Experiment 1b,7,Test - Point,Tiger,1
+id26,Experiment 1b,8,Test - Point,Pig,1
+id40,Experiment 1b,1,Test - Point,Elephant,1
+id40,Experiment 1b,2,Test - Point,Bear,1
+id40,Experiment 1b,3,Test - Point,Pig,1
+id40,Experiment 1b,4,Test - Point,Frog,1
+id40,Experiment 1b,5,Test - Point,Bunny,1
+id40,Experiment 1b,6,Test - Point,Monkey,1
+id40,Experiment 1b,7,Test - Point,Dog,1
+id40,Experiment 1b,8,Test - Point,Mouse,1
+id60,Experiment 1b,1,Test - Point,Mouse,1
+id60,Experiment 1b,2,Test - Point,Bunny,0
+id60,Experiment 1b,3,Test - Point,Frog,1
+id60,Experiment 1b,4,Test - Point,Monkey,1
+id60,Experiment 1b,5,Test - Point,Pig,1
+id60,Experiment 1b,6,Test - Point,Dog,1
+id60,Experiment 1b,7,Test - Point,Tiger,1
+id60,Experiment 1b,8,Test - Point,Sheep,1
+id72,Experiment 1b,1,Test - Point,Monkey,1
+id72,Experiment 1b,2,Test - Point,Mouse,1
+id72,Experiment 1b,3,Test - Point,Frog,1
+id72,Experiment 1b,4,Test - Point,Bunny,1
+id72,Experiment 1b,5,Test - Point,Cat,1
+id72,Experiment 1b,6,Test - Point,Bear,1
+id72,Experiment 1b,7,Test - Point,Tiger,1
+id72,Experiment 1b,8,Test - Point,Elephant,1
+id87,Experiment 1b,1,Test - Point,Cat,1
+id87,Experiment 1b,2,Test - Point,Bear,1
+id87,Experiment 1b,3,Test - Point,Bunny,1
+id87,Experiment 1b,4,Test - Point,Tiger,1
+id87,Experiment 1b,5,Test - Point,Pig,1
+id87,Experiment 1b,6,Test - Point,Elephant,1
+id87,Experiment 1b,7,Test - Point,Mouse,1
+id87,Experiment 1b,8,Test - Point,Frog,1
+id115,Experiment 1b,1,Test - Point,Tiger,1
+id115,Experiment 1b,2,Test - Point,Bunny,1
+id115,Experiment 1b,3,Test - Point,Frog,1
+id115,Experiment 1b,4,Test - Point,Dog,1
+id115,Experiment 1b,5,Test - Point,Elephant,1
+id115,Experiment 1b,6,Test - Point,Bear,1
+id115,Experiment 1b,7,Test - Point,Pig,1
+id115,Experiment 1b,8,Test - Point,Mouse,1
+id117,Experiment 1b,1,Test - Point,Tiger,0
+id117,Experiment 1b,2,Test - Point,Monkey,1
+id117,Experiment 1b,3,Test - Point,Bunny,0
+id117,Experiment 1b,4,Test - Point,Sheep,1
+id117,Experiment 1b,5,Test - Point,Pig,1
+id117,Experiment 1b,6,Test - Point,Mouse,0
+id117,Experiment 1b,7,Test - Point,Dog,1
+id117,Experiment 1b,8,Test - Point,Bear,0
+id126,Experiment 1b,1,Test - Point,Mouse,1
+id126,Experiment 1b,2,Test - Point,Frog,0
+id126,Experiment 1b,3,Test - Point,Bunny,1
+id126,Experiment 1b,4,Test - Point,Pig,0
+id126,Experiment 1b,5,Test - Point,Tiger,1
+id126,Experiment 1b,6,Test - Point,Monkey,0
+id126,Experiment 1b,7,Test - Point,Sheep,1
+id126,Experiment 1b,8,Test - Point,Cat,1
+id133,Experiment 1b,1,Test - Point,Pig,0
+id133,Experiment 1b,2,Test - Point,Bunny,1
+id133,Experiment 1b,3,Test - Point,Elephant,0
+id133,Experiment 1b,4,Test - Point,Frog,0
+id133,Experiment 1b,5,Test - Point,Mouse,0
+id133,Experiment 1b,6,Test - Point,Tiger,1
+id133,Experiment 1b,7,Test - Point,Monkey,1
+id133,Experiment 1b,8,Test - Point,Cat,0
+id161,Experiment 1b,1,Test - Point,Elephant,0
+id161,Experiment 1b,2,Test - Point,Pig,1
+id161,Experiment 1b,3,Test - Point,Mouse,1
+id161,Experiment 1b,4,Test - Point,Frog,1
+id161,Experiment 1b,5,Test - Point,Dog,0
+id161,Experiment 1b,6,Test - Point,Monkey,1
+id161,Experiment 1b,7,Test - Point,Bunny,0
+id161,Experiment 1b,8,Test - Point,Cat,1
+id165,Experiment 1b,1,Test - Point,Monkey,1
+id165,Experiment 1b,2,Test - Point,Dog,1
+id165,Experiment 1b,3,Test - Point,Mouse,1
+id165,Experiment 1b,4,Test - Point,Bunny,1
+id165,Experiment 1b,5,Test - Point,Cat,0
+id165,Experiment 1b,6,Test - Point,Sheep,1
+id165,Experiment 1b,7,Test - Point,Tiger,1
+id165,Experiment 1b,8,Test - Point,Elephant,1
+id8,Experiment 1b,1,Test - Point + Label,Tiger,1
+id8,Experiment 1b,2,Test - Point + Label,Mouse,1
+id8,Experiment 1b,3,Test - Point + Label,Bunny,1
+id8,Experiment 1b,4,Test - Point + Label,Dog,1
+id8,Experiment 1b,5,Test - Point + Label,Bear,1
+id8,Experiment 1b,6,Test - Point + Label,Pig,1
+id8,Experiment 1b,7,Test - Point + Label,Sheep,1
+id8,Experiment 1b,8,Test - Point + Label,Cat,1
+id51,Experiment 1b,1,Test - Point + Label,Mouse,1
+id51,Experiment 1b,2,Test - Point + Label,Pig,0
+id51,Experiment 1b,3,Test - Point + Label,Bunny,1
+id51,Experiment 1b,4,Test - Point + Label,Frog,1
+id51,Experiment 1b,5,Test - Point + Label,Monkey,1
+id51,Experiment 1b,6,Test - Point + Label,Dog,1
+id51,Experiment 1b,7,Test - Point + Label,Sheep,0
+id51,Experiment 1b,8,Test - Point + Label,Cat,0
+id66,Experiment 1b,1,Test - Point + Label,Cat,1
+id66,Experiment 1b,2,Test - Point + Label,Bunny,1
+id66,Experiment 1b,3,Test - Point + Label,Dog,1
+id66,Experiment 1b,4,Test - Point + Label,Sheep,1
+id66,Experiment 1b,5,Test - Point + Label,Monkey,1
+id66,Experiment 1b,6,Test - Point + Label,Pig,1
+id66,Experiment 1b,7,Test - Point + Label,Bear,1
+id66,Experiment 1b,8,Test - Point + Label,Mouse,1
+id93,Experiment 1b,1,Test - Point + Label,Frog,1
+id93,Experiment 1b,2,Test - Point + Label,Sheep,0
+id93,Experiment 1b,3,Test - Point + Label,Mouse,1
+id93,Experiment 1b,4,Test - Point + Label,Pig,1
+id93,Experiment 1b,5,Test - Point + Label,Monkey,0
+id93,Experiment 1b,6,Test - Point + Label,Bunny,1
+id93,Experiment 1b,7,Test - Point + Label,Cat,0
+id93,Experiment 1b,8,Test - Point + Label,Tiger,0
+id118,Experiment 1b,1,Test - Point + Label,Elephant,1
+id118,Experiment 1b,2,Test - Point + Label,Tiger,0
+id118,Experiment 1b,3,Test - Point + Label,Monkey,0
+id118,Experiment 1b,4,Test - Point + Label,Dog,1
+id118,Experiment 1b,5,Test - Point + Label,Frog,1
+id118,Experiment 1b,6,Test - Point + Label,Bunny,1
+id118,Experiment 1b,7,Test - Point + Label,Mouse,0
+id118,Experiment 1b,8,Test - Point + Label,Pig,1
+id149,Experiment 1b,1,Test - Point + Label,Bear,1
+id149,Experiment 1b,2,Test - Point + Label,Mouse,0
+id149,Experiment 1b,3,Test - Point + Label,Dog,0
+id149,Experiment 1b,4,Test - Point + Label,Bunny,0
+id149,Experiment 1b,5,Test - Point + Label,Pig,1
+id149,Experiment 1b,6,Test - Point + Label,Tiger,1
+id149,Experiment 1b,7,Test - Point + Label,Sheep,1
+id149,Experiment 1b,8,Test - Point + Label,Frog,1
+id213,Experiment 1b,1,Test - Point + Label,Elephant,1
+id213,Experiment 1b,2,Test - Point + Label,Mouse,1
+id213,Experiment 1b,3,Test - Point + Label,Cat,1
+id213,Experiment 1b,4,Test - Point + Label,Monkey,1
+id213,Experiment 1b,5,Test - Point + Label,Pig,1
+id213,Experiment 1b,6,Test - Point + Label,Bunny,1
+id213,Experiment 1b,7,Test - Point + Label,Dog,1
+id213,Experiment 1b,8,Test - Point + Label,Bear,1
+id223,Experiment 1b,1,Test - Point + Label,Bunny,1
+id223,Experiment 1b,2,Test - Point + Label,Frog,1
+id223,Experiment 1b,3,Test - Point + Label,Pig,1
+id223,Experiment 1b,4,Test - Point + Label,Elephant,1
+id223,Experiment 1b,5,Test - Point + Label,Monkey,1
+id223,Experiment 1b,6,Test - Point + Label,Bear,1
+id223,Experiment 1b,7,Test - Point + Label,Mouse,1
+id223,Experiment 1b,8,Test - Point + Label,Tiger,1
+id6,Experiment 2,1,Control - Barrier,Beaver,1
+id6,Experiment 2,2,Test - Look + Label,Cat,0
+id6,Experiment 2,3,Control - Later,Dog,0
+id6,Experiment 2,4,Control - Later,Elephant,0
+id6,Experiment 2,5,Control - Later,Frog,0
+id6,Experiment 2,6,Test - Look + Label,Bear,0
+id6,Experiment 2,7,Control - Barrier,Mouse,0
+id6,Experiment 2,8,Control - Barrier,Monkey,0
+id6,Experiment 2,9,Test - Look + Label,Sheep,0
+id9,Experiment 2,1,Control - Barrier,Dog,1
+id9,Experiment 2,2,Control - Barrier,Frog,1
+id9,Experiment 2,3,Control - Later,Elephant,1
+id9,Experiment 2,4,Control - Later,Bear,1
+id9,Experiment 2,5,Test - Look + Label,Beaver,1
+id9,Experiment 2,6,Control - Later,Mouse,1
+id9,Experiment 2,7,Test - Look + Label,Tiger,1
+id9,Experiment 2,8,Test - Look + Label,Monkey,1
+id9,Experiment 2,9,Control - Barrier,Bunny,1
+id11,Experiment 2,1,Control - Barrier,Frog,0
+id11,Experiment 2,2,Control - Later,Sheep,1
+id11,Experiment 2,3,Control - Later,Cat,0
+id11,Experiment 2,4,Control - Barrier,Mouse,0
+id11,Experiment 2,5,Test - Look + Label,Bunny,0
+id11,Experiment 2,6,Test - Look + Label,Bear,0
+id11,Experiment 2,7,Test - Look + Label,Dog,0
+id11,Experiment 2,8,Control - Barrier,Beaver,0
+id11,Experiment 2,9,Control - Later,Elephant,0
+id13,Experiment 2,1,Control - Later,Cat,0
+id13,Experiment 2,2,Test - Look + Label,Mouse,0
+id13,Experiment 2,3,Control - Later,Sheep,0
+id13,Experiment 2,4,Control - Barrier,Monkey,0
+id13,Experiment 2,5,Test - Look + Label,Bear,0
+id13,Experiment 2,6,Control - Barrier,Bunny,0
+id13,Experiment 2,7,Control - Barrier,Dog,0
+id13,Experiment 2,8,Test - Look + Label,Frog,0
+id13,Experiment 2,9,Control - Later,Tiger,0
+id21,Experiment 2,1,Control - Barrier,Elephant,1
+id21,Experiment 2,2,Control - Barrier,Tiger,1
+id21,Experiment 2,3,Test - Look + Label,Beaver,1
+id21,Experiment 2,4,Control - Later,Monkey,0
+id21,Experiment 2,5,Control - Later,Sheep,1
+id21,Experiment 2,6,Test - Look + Label,Dog,1
+id21,Experiment 2,7,Test - Look + Label,Mouse,1
+id21,Experiment 2,8,Control - Barrier,Bear,0
+id21,Experiment 2,9,Control - Later,Frog,0
+id28,Experiment 2,1,Control - Barrier,Elephant,0
+id28,Experiment 2,2,Test - Look + Label,Beaver,1
+id28,Experiment 2,3,Control - Barrier,Monkey,1
+id28,Experiment 2,4,Control - Later,Mouse,1
+id28,Experiment 2,5,Test - Look + Label,Sheep,1
+id28,Experiment 2,6,Control - Barrier,Bunny,0
+id28,Experiment 2,7,Test - Look + Label,Frog,1
+id28,Experiment 2,8,Control - Later,Dog,0
+id28,Experiment 2,9,Control - Later,Bear,0
+id32,Experiment 2,1,Test - Look + Label,Bear,0
+id32,Experiment 2,2,Control - Later,Bunny,0
+id32,Experiment 2,3,Control - Barrier,Dog,1
+id32,Experiment 2,4,Control - Later,Monkey,0
+id32,Experiment 2,5,Control - Barrier,Elephant,1
+id32,Experiment 2,6,Control - Later,Frog,0
+id32,Experiment 2,7,Test - Look + Label,Mouse,1
+id32,Experiment 2,8,Control - Barrier,Tiger,1
+id32,Experiment 2,9,Test - Look + Label,Cat,0
+id39,Experiment 2,1,Test - Look + Label,Frog,1
+id39,Experiment 2,2,Control - Later,Monkey,0
+id39,Experiment 2,3,Control - Later,Bunny,0
+id39,Experiment 2,4,Control - Barrier,Tiger,0
+id39,Experiment 2,5,Control - Barrier,Cat,0
+id39,Experiment 2,6,Control - Later,Beaver,0
+id39,Experiment 2,7,Test - Look + Label,Bear,1
+id39,Experiment 2,8,Test - Look + Label,Sheep,1
+id39,Experiment 2,9,Control - Barrier,Mouse,0
+id48,Experiment 2,1,Control - Later,Elephant,1
+id48,Experiment 2,2,Test - Look + Label,Monkey,1
+id48,Experiment 2,3,Control - Barrier,Mouse,1
+id48,Experiment 2,4,Test - Look + Label,Sheep,1
+id48,Experiment 2,5,Control - Later,Beaver,1
+id48,Experiment 2,6,Control - Barrier,Frog,0
+id48,Experiment 2,7,Control - Later,Dog,1
+id48,Experiment 2,8,Test - Look + Label,Bear,1
+id48,Experiment 2,9,Control - Barrier,Cat,1
+id56,Experiment 2,1,Test - Look + Label,Elephant,1
+id56,Experiment 2,2,Control - Later,Mouse,1
+id56,Experiment 2,3,Test - Look + Label,Tiger,1
+id56,Experiment 2,4,Control - Later,Monkey,0
+id56,Experiment 2,5,Test - Look + Label,Sheep,1
+id56,Experiment 2,6,Control - Barrier,Dog,0
+id56,Experiment 2,7,Control - Later,Cat,0
+id56,Experiment 2,8,Control - Barrier,Beaver,1
+id56,Experiment 2,9,Control - Barrier,Bunny,1
+id59,Experiment 2,1,Test - Look + Label,Elephant,1
+id59,Experiment 2,2,Control - Barrier,Frog,1
+id59,Experiment 2,3,Test - Look + Label,Monkey,1
+id59,Experiment 2,4,Control - Barrier,Tiger,0
+id59,Experiment 2,5,Control - Later,Bunny,1
+id59,Experiment 2,6,Control - Later,Dog,0
+id59,Experiment 2,7,Control - Barrier,Bear,1
+id59,Experiment 2,8,Test - Look + Label,Beaver,1
+id59,Experiment 2,9,Control - Later,Mouse,0
+id63,Experiment 2,1,Control - Barrier,Sheep,1
+id63,Experiment 2,2,Control - Later,Mouse,0
+id63,Experiment 2,3,Test - Look + Label,Tiger,1
+id63,Experiment 2,4,Control - Barrier,Frog,1
+id63,Experiment 2,5,Control - Later,Beaver,0
+id63,Experiment 2,6,Control - Barrier,Elephant,0
+id63,Experiment 2,7,Test - Look + Label,Bunny,0
+id63,Experiment 2,8,Control - Later,Dog,0
+id63,Experiment 2,9,Test - Look + Label,Bear,0
+id65,Experiment 2,1,Control - Later,Elephant,0
+id65,Experiment 2,2,Control - Barrier,Frog,1
+id65,Experiment 2,3,Control - Later,Mouse,0
+id65,Experiment 2,4,Test - Look + Label,Tiger,1
+id65,Experiment 2,5,Test - Look + Label,Sheep,1
+id65,Experiment 2,6,Control - Barrier,Dog,1
+id65,Experiment 2,7,Test - Look + Label,Bear,1
+id65,Experiment 2,8,Control - Barrier,Monkey,1
+id65,Experiment 2,9,Control - Later,Beaver,0
+id76,Experiment 2,1,Control - Barrier,Elephant,1
+id76,Experiment 2,2,Control - Later,Tiger,1
+id76,Experiment 2,3,Test - Look + Label,Mouse,1
+id76,Experiment 2,4,Control - Barrier,Bear,1
+id76,Experiment 2,5,Control - Later,Sheep,1
+id76,Experiment 2,6,Test - Look + Label,Beaver,1
+id76,Experiment 2,7,Control - Later,Dog,1
+id76,Experiment 2,8,Control - Barrier,Monkey,1
+id76,Experiment 2,9,Test - Look + Label,Cat,1
+id80,Experiment 2,1,Control - Later,Cat,0
+id80,Experiment 2,2,Test - Look + Label,Mouse,0
+id80,Experiment 2,3,Test - Look + Label,Tiger,0
+id80,Experiment 2,4,Control - Later,Sheep,0
+id80,Experiment 2,5,Control - Later,Monkey,0
+id80,Experiment 2,6,Test - Look + Label,Beaver,0
+id80,Experiment 2,7,Control - Barrier,Bunny,0
+id80,Experiment 2,8,Control - Barrier,Dog,0
+id80,Experiment 2,9,Control - Barrier,Elephant,0
+id81,Experiment 2,1,Test - Look + Label,Bunny,1
+id81,Experiment 2,2,Test - Look + Label,Dog,0
+id81,Experiment 2,3,Control - Later,Beaver,0
+id81,Experiment 2,4,Control - Barrier,Sheep,0
+id81,Experiment 2,5,Control - Later,Monkey,0
+id81,Experiment 2,6,Test - Look + Label,Mouse,0
+id81,Experiment 2,7,Control - Later,Bear,0
+id81,Experiment 2,8,Control - Barrier,Frog,0
+id81,Experiment 2,9,Control - Barrier,Cat,0
+id82,Experiment 2,1,Control - Later,Beaver,1
+id82,Experiment 2,2,Control - Later,Mouse,0
+id82,Experiment 2,3,Control - Barrier,Frog,0
+id82,Experiment 2,4,Test - Look + Label,Dog,0
+id82,Experiment 2,5,Test - Look + Label,Bunny,0
+id82,Experiment 2,6,Control - Barrier,Monkey,1
+id82,Experiment 2,7,Control - Later,Elephant,0
+id82,Experiment 2,8,Test - Look + Label,Tiger,1
+id82,Experiment 2,9,Control - Barrier,Bear,0
+id102,Experiment 2,1,Control - Barrier,Beaver,1
+id102,Experiment 2,2,Control - Later,Dog,1
+id102,Experiment 2,3,Control - Later,Monkey,1
+id102,Experiment 2,4,Test - Look + Label,Elephant,1
+id102,Experiment 2,5,Control - Barrier,Bear,1
+id102,Experiment 2,6,Control - Barrier,Frog,0
+id102,Experiment 2,7,Test - Look + Label,Sheep,0
+id102,Experiment 2,8,Control - Later,Mouse,0
+id102,Experiment 2,9,Test - Look + Label,Tiger,0
+id103,Experiment 2,1,Control - Later,Bunny,1
+id103,Experiment 2,2,Control - Later,Cat,1
+id103,Experiment 2,3,Control - Barrier,Bear,1
+id103,Experiment 2,4,Test - Look + Label,Beaver,1
+id103,Experiment 2,5,Test - Look + Label,Mouse,1
+id103,Experiment 2,6,Control - Barrier,Dog,1
+id103,Experiment 2,7,Control - Later,Elephant,1
+id103,Experiment 2,8,Test - Look + Label,Tiger,1
+id103,Experiment 2,9,Control - Barrier,Monkey,1
+id104,Experiment 2,1,Control - Later,Mouse,0
+id104,Experiment 2,2,Control - Later,Bunny,0
+id104,Experiment 2,3,Test - Look + Label,Cat,0
+id104,Experiment 2,4,Control - Barrier,Dog,0
+id104,Experiment 2,5,Test - Look + Label,Beaver,1
+id104,Experiment 2,6,Control - Later,Tiger,0
+id104,Experiment 2,7,Test - Look + Label,Bear,1
+id104,Experiment 2,8,Control - Barrier,Monkey,0
+id104,Experiment 2,9,Control - Barrier,Sheep,0
+id110,Experiment 2,1,Control - Barrier,Tiger,0
+id110,Experiment 2,2,Control - Barrier,Sheep,0
+id110,Experiment 2,3,Test - Look + Label,Dog,1
+id110,Experiment 2,4,Test - Look + Label,Beaver,1
+id110,Experiment 2,5,Control - Barrier,Bunny,0
+id110,Experiment 2,6,Control - Later,Mouse,1
+id110,Experiment 2,7,Test - Look + Label,Monkey,1
+id110,Experiment 2,8,Control - Later,Frog,0
+id110,Experiment 2,9,Control - Later,Cat,1
+id137,Experiment 2,1,Control - Barrier,Elephant,0
+id137,Experiment 2,2,Control - Later,Cat,0
+id137,Experiment 2,3,Control - Barrier,Monkey,0
+id137,Experiment 2,4,Test - Look + Label,Tiger,0
+id137,Experiment 2,5,Control - Later,Bunny,0
+id137,Experiment 2,6,Control - Later,Bear,0
+id137,Experiment 2,7,Control - Barrier,Beaver,0
+id137,Experiment 2,8,Test - Look + Label,Mouse,0
+id137,Experiment 2,9,Test - Look + Label,Frog,1
+id144,Experiment 2,1,Control - Barrier,Bunny,1
+id144,Experiment 2,2,Test - Look + Label,Beaver,1
+id144,Experiment 2,3,Control - Barrier,Dog,0
+id144,Experiment 2,4,Test - Look + Label,Sheep,1
+id144,Experiment 2,5,Control - Later,Frog,0
+id144,Experiment 2,6,Control - Barrier,Monkey,1
+id144,Experiment 2,7,Control - Later,Mouse,1
+id144,Experiment 2,8,Test - Look + Label,Cat,0
+id144,Experiment 2,9,Control - Later,Tiger,0
+id146,Experiment 2,1,Control - Barrier,Tiger,1
+id146,Experiment 2,2,Test - Look + Label,Sheep,1
+id146,Experiment 2,3,Control - Barrier,Bear,1
+id146,Experiment 2,4,Test - Look + Label,Dog,1
+id146,Experiment 2,5,Control - Later,Beaver,1
+id146,Experiment 2,6,Control - Later,Bunny,1
+id146,Experiment 2,7,Control - Later,Mouse,1
+id146,Experiment 2,8,Control - Barrier,Frog,1
+id146,Experiment 2,9,Test - Look + Label,Cat,1
+id150,Experiment 2,1,Control - Later,Mouse,1
+id150,Experiment 2,2,Test - Look + Label,Monkey,1
+id150,Experiment 2,3,Control - Barrier,Beaver,0
+id150,Experiment 2,4,Test - Look + Label,Cat,1
+id150,Experiment 2,5,Control - Later,Frog,1
+id150,Experiment 2,6,Test - Look + Label,Bunny,1
+id150,Experiment 2,7,Control - Later,Dog,1
+id150,Experiment 2,8,Control - Barrier,Sheep,1
+id150,Experiment 2,9,Control - Barrier,Bear,0
+id154,Experiment 2,1,Test - Look + Label,Frog,1
+id154,Experiment 2,2,Control - Later,Mouse,1
+id154,Experiment 2,3,Control - Barrier,Elephant,1
+id154,Experiment 2,4,Test - Look + Label,Beaver,1
+id154,Experiment 2,5,Control - Barrier,Monkey,1
+id154,Experiment 2,6,Control - Later,Tiger,1
+id154,Experiment 2,7,Control - Barrier,Sheep,0
+id154,Experiment 2,8,Control - Later,Bear,1
+id154,Experiment 2,9,Test - Look + Label,Dog,0
+id156,Experiment 2,1,Control - Barrier,Bunny,1
+id156,Experiment 2,2,Control - Barrier,Bear,1
+id156,Experiment 2,3,Test - Look + Label,Monkey,1
+id156,Experiment 2,4,Test - Look + Label,Sheep,1
+id156,Experiment 2,5,Control - Later,Mouse,1
+id156,Experiment 2,6,Control - Barrier,Beaver,1
+id156,Experiment 2,7,Control - Later,Tiger,1
+id156,Experiment 2,8,Test - Look + Label,Dog,1
+id156,Experiment 2,9,Control - Later,Frog,0
+id164,Experiment 2,1,Control - Barrier,Monkey,1
+id164,Experiment 2,2,Control - Barrier,Cat,1
+id164,Experiment 2,3,Control - Later,Elephant,0
+id164,Experiment 2,4,Test - Look + Label,Beaver,1
+id164,Experiment 2,5,Control - Barrier,Frog,1
+id164,Experiment 2,6,Control - Later,Bear,1
+id164,Experiment 2,7,Test - Look + Label,Bunny,1
+id164,Experiment 2,8,Test - Look + Label,Tiger,1
+id164,Experiment 2,9,Control - Later,Dog,1
+id166,Experiment 2,1,Control - Later,Frog,0
+id166,Experiment 2,2,Test - Look + Label,Bunny,1
+id166,Experiment 2,3,Control - Barrier,Bear,0
+id166,Experiment 2,4,Control - Later,Monkey,0
+id166,Experiment 2,5,Control - Barrier,Elephant,1
+id166,Experiment 2,6,Test - Look + Label,Beaver,0
+id166,Experiment 2,7,Control - Barrier,Cat,1
+id166,Experiment 2,8,Control - Later,Dog,0
+id166,Experiment 2,9,Test - Look + Label,Tiger,1
+id187,Experiment 2,1,Test - Look + Label,Sheep,1
+id187,Experiment 2,2,Control - Barrier,Frog,0
+id187,Experiment 2,3,Test - Look + Label,Mouse,1
+id187,Experiment 2,4,Control - Barrier,Beaver,1
+id187,Experiment 2,5,Control - Later,Tiger,1
+id187,Experiment 2,6,Control - Later,Monkey,1
+id187,Experiment 2,7,Test - Look + Label,Bunny,1
+id187,Experiment 2,8,Control - Barrier,Bear,0
+id187,Experiment 2,9,Control - Later,Dog,0
+id188,Experiment 2,1,Test - Look + Label,Bunny,1
+id188,Experiment 2,2,Control - Later,Monkey,1
+id188,Experiment 2,3,Test - Look + Label,Dog,1
+id188,Experiment 2,4,Control - Barrier,Bear,1
+id188,Experiment 2,5,Test - Look + Label,Sheep,1
+id188,Experiment 2,6,Control - Barrier,Tiger,1
+id188,Experiment 2,7,Control - Later,Mouse,1
+id188,Experiment 2,8,Control - Barrier,Cat,0
+id188,Experiment 2,9,Control - Later,Beaver,1
+id192,Experiment 2,1,Control - Barrier,Frog,0
+id192,Experiment 2,2,Test - Look + Label,Bunny,1
+id192,Experiment 2,3,Control - Later,Tiger,0
+id192,Experiment 2,4,Control - Barrier,Bear,1
+id192,Experiment 2,5,Control - Barrier,Beaver,1
+id192,Experiment 2,6,Test - Look + Label,Elephant,1
+id192,Experiment 2,7,Control - Later,Mouse,0
+id192,Experiment 2,8,Control - Later,Dog,0
+id192,Experiment 2,9,Test - Look + Label,Monkey,1
+id202,Experiment 2,1,Test - Look + Label,Frog,1
+id202,Experiment 2,2,Control - Later,Elephant,1
+id202,Experiment 2,3,Control - Barrier,Monkey,1
+id202,Experiment 2,4,Test - Look + Label,Mouse,0
+id202,Experiment 2,5,Control - Later,Cat,1
+id202,Experiment 2,6,Control - Barrier,Tiger,0
+id202,Experiment 2,7,Control - Barrier,Bunny,0
+id202,Experiment 2,8,Test - Look + Label,Bear,1
+id202,Experiment 2,9,Control - Later,Dog,1
+id208,Experiment 2,1,Control - Barrier,Cat,0
+id208,Experiment 2,2,Test - Look + Label,Elephant,0
+id208,Experiment 2,3,Control - Later,Mouse,1
+id208,Experiment 2,4,Test - Look + Label,Sheep,0
+id208,Experiment 2,5,Test - Look + Label,Beaver,0
+id208,Experiment 2,6,Control - Later,Monkey,1
+id208,Experiment 2,7,Control - Barrier,Dog,0
+id208,Experiment 2,8,Control - Barrier,Bear,0
+id208,Experiment 2,9,Control - Later,Tiger,0
+id209,Experiment 2,1,Control - Barrier,Sheep,1
+id209,Experiment 2,2,Control - Later,Frog,0
+id209,Experiment 2,3,Control - Barrier,Mouse,0
+id209,Experiment 2,4,Test - Look + Label,Monkey,0
+id209,Experiment 2,5,Control - Barrier,Tiger,0
+id209,Experiment 2,6,Control - Later,Elephant,0
+id209,Experiment 2,7,Control - Later,Cat,0
+id209,Experiment 2,8,Test - Look + Label,Dog,0
+id209,Experiment 2,9,Test - Look + Label,Bear,0
+id214,Experiment 2,1,Control - Barrier,Tiger,1
+id214,Experiment 2,2,Test - Look + Label,Bunny,1
+id214,Experiment 2,3,Control - Barrier,Frog,1
+id214,Experiment 2,4,Test - Look + Label,Dog,1
+id214,Experiment 2,5,Control - Barrier,Sheep,1
+id214,Experiment 2,6,Test - Look + Label,Mouse,1
+id214,Experiment 2,7,Control - Later,Monkey,1
+id214,Experiment 2,8,Control - Later,Bear,1
+id214,Experiment 2,9,Control - Later,Beaver,1
+id215,Experiment 2,1,Control - Later,Mouse,0
+id215,Experiment 2,2,Test - Look + Label,Elephant,0
+id215,Experiment 2,3,Control - Barrier,Beaver,0
+id215,Experiment 2,4,Control - Barrier,Frog,0
+id215,Experiment 2,5,Control - Barrier,Bunny,0
+id215,Experiment 2,6,Control - Later,Bear,0
+id215,Experiment 2,7,Test - Look + Label,Tiger,0
+id215,Experiment 2,8,Test - Look + Label,Monkey,0
+id215,Experiment 2,9,Control - Later,Cat,0
+id219,Experiment 2,1,Control - Barrier,Dog,1
+id219,Experiment 2,2,Test - Look + Label,Elephant,1
+id219,Experiment 2,3,Test - Look + Label,Mouse,1
+id219,Experiment 2,4,Test - Look + Label,Beaver,1
+id219,Experiment 2,5,Control - Later,Sheep,1
+id219,Experiment 2,6,Control - Barrier,Frog,1
+id219,Experiment 2,7,Control - Barrier,Tiger,0
+id219,Experiment 2,8,Control - Later,Cat,1
+id219,Experiment 2,9,Control - Later,Monkey,1
+id225,Experiment 2,1,Control - Later,Elephant,0
+id225,Experiment 2,2,Control - Later,Frog,0
+id225,Experiment 2,3,Test - Look + Label,Cat,0
+id225,Experiment 2,4,Control - Barrier,Mouse,1
+id225,Experiment 2,5,Test - Look + Label,Dog,0
+id225,Experiment 2,6,Control - Later,Beaver,0
+id225,Experiment 2,7,Control - Barrier,Bear,0
+id225,Experiment 2,8,Control - Barrier,Bunny,1
+id225,Experiment 2,9,Test - Look + Label,Monkey,1
+id228,Experiment 2,1,Test - Look + Label,Tiger,1
+id228,Experiment 2,2,Control - Later,Bunny,0
+id228,Experiment 2,3,Test - Look + Label,Mouse,1
+id228,Experiment 2,4,Control - Barrier,Monkey,1
+id228,Experiment 2,5,Test - Look + Label,Bear,1
+id228,Experiment 2,6,Control - Barrier,Dog,0
+id228,Experiment 2,7,Control - Later,Beaver,1
+id228,Experiment 2,8,Control - Later,Sheep,1
+id228,Experiment 2,9,Control - Barrier,Elephant,0
+id7,Experiment 3a,1,Control - Person,Frog,1
+id7,Experiment 3a,2,Control - Person,Mouse,1
+id7,Experiment 3a,3,Test - Look + Label,Bear,1
+id7,Experiment 3a,4,Test - Look + Label,Beaver,1
+id7,Experiment 3a,5,Test - Look + Label,Monkey,1
+id7,Experiment 3a,6,Control - Person,Tiger,1
+id7,Experiment 3a,7,Test - Look + Label,Bunny,1
+id7,Experiment 3a,8,Control - Person,Dog,1
+id19,Experiment 3a,1,Control - Person,Beaver,0
+id19,Experiment 3a,2,Test - Look + Label,Mouse,0
+id19,Experiment 3a,3,Test - Look + Label,Monkey,0
+id19,Experiment 3a,4,Test - Look + Label,Dog,0
+id19,Experiment 3a,5,Control - Person,Frog,1
+id19,Experiment 3a,6,Control - Person,Cat,0
+id19,Experiment 3a,7,Test - Look + Label,Bunny,0
+id19,Experiment 3a,8,Control - Person,Bear,0
+id22,Experiment 3a,1,Test - Look + Label,Frog,1
+id22,Experiment 3a,2,Control - Person,Beaver,1
+id22,Experiment 3a,3,Control - Person,Mouse,0
+id22,Experiment 3a,4,Control - Person,Monkey,0
+id22,Experiment 3a,5,Test - Look + Label,Bunny,1
+id22,Experiment 3a,6,Test - Look + Label,Bear,1
+id22,Experiment 3a,7,Test - Look + Label,Dog,1
+id22,Experiment 3a,8,Control - Person,Sheep,1
+id29,Experiment 3a,1,Control - Person,Beaver,0
+id29,Experiment 3a,2,Control - Person,Frog,0
+id29,Experiment 3a,3,Test - Look + Label,Bunny,0
+id29,Experiment 3a,4,Test - Look + Label,Mouse,0
+id29,Experiment 3a,5,Control - Person,Monkey,0
+id29,Experiment 3a,6,Test - Look + Label,Tiger,1
+id29,Experiment 3a,7,Test - Look + Label,Dog,0
+id29,Experiment 3a,8,Control - Person,Bear,0
+id31,Experiment 3a,1,Control - Person,Frog,0
+id31,Experiment 3a,2,Control - Person,Monkey,0
+id31,Experiment 3a,3,Control - Person,Beaver,0
+id31,Experiment 3a,4,Test - Look + Label,Bunny,0
+id31,Experiment 3a,5,Test - Look + Label,Mouse,0
+id31,Experiment 3a,6,Test - Look + Label,Dog,0
+id31,Experiment 3a,7,Test - Look + Label,Sheep,0
+id31,Experiment 3a,8,Control - Person,Bear,0
+id44,Experiment 3a,1,Test - Look + Label,Beaver,1
+id44,Experiment 3a,2,Control - Person,Mouse,1
+id44,Experiment 3a,3,Test - Look + Label,Bunny,1
+id44,Experiment 3a,4,Test - Look + Label,Dog,1
+id44,Experiment 3a,5,Test - Look + Label,Bear,1
+id44,Experiment 3a,6,Control - Person,Frog,0
+id44,Experiment 3a,7,Control - Person,Monkey,0
+id44,Experiment 3a,8,Control - Person,Sheep,1
+id49,Experiment 3a,1,Test - Look + Label,Frog,1
+id49,Experiment 3a,2,Control - Person,Mouse,0
+id49,Experiment 3a,3,Control - Person,Dog,0
+id49,Experiment 3a,4,Control - Person,Beaver,1
+id49,Experiment 3a,5,Test - Look + Label,Bunny,0
+id49,Experiment 3a,6,Test - Look + Label,Bear,0
+id49,Experiment 3a,7,Test - Look + Label,Sheep,1
+id49,Experiment 3a,8,Control - Person,Monkey,1
+id54,Experiment 3a,1,Test - Look + Label,Frog,1
+id54,Experiment 3a,2,Control - Person,Mouse,1
+id54,Experiment 3a,3,Test - Look + Label,Beaver,1
+id54,Experiment 3a,4,Test - Look + Label,Dog,1
+id54,Experiment 3a,5,Control - Person,Monkey,1
+id54,Experiment 3a,6,Control - Person,Bear,1
+id54,Experiment 3a,7,Test - Look + Label,Bunny,1
+id54,Experiment 3a,8,Control - Person,Sheep,1
+id55,Experiment 3a,1,Test - Look + Label,Frog,1
+id55,Experiment 3a,2,Test - Look + Label,Beaver,1
+id55,Experiment 3a,3,Control - Person,Monkey,0
+id55,Experiment 3a,4,Control - Person,Mouse,0
+id55,Experiment 3a,5,Control - Person,Bunny,0
+id55,Experiment 3a,6,Test - Look + Label,Cat,1
+id55,Experiment 3a,7,Test - Look + Label,Bear,1
+id55,Experiment 3a,8,Control - Person,Dog,0
+id58,Experiment 3a,1,Control - Person,Beaver,0
+id58,Experiment 3a,2,Control - Person,Mouse,0
+id58,Experiment 3a,3,Control - Person,Sheep,0
+id58,Experiment 3a,4,Test - Look + Label,Frog,1
+id58,Experiment 3a,5,Test - Look + Label,Bunny,1
+id58,Experiment 3a,6,Test - Look + Label,Monkey,1
+id58,Experiment 3a,7,Control - Person,Dog,0
+id58,Experiment 3a,8,Test - Look + Label,Bear,1
+id69,Experiment 3a,1,Control - Person,Frog,1
+id69,Experiment 3a,2,Control - Person,Beaver,1
+id69,Experiment 3a,3,Test - Look + Label,Mouse,1
+id69,Experiment 3a,4,Control - Person,Dog,0
+id69,Experiment 3a,5,Test - Look + Label,Monkey,1
+id69,Experiment 3a,6,Control - Person,Bunny,1
+id69,Experiment 3a,7,Test - Look + Label,Sheep,1
+id69,Experiment 3a,8,Test - Look + Label,Bear,1
+id75,Experiment 3a,1,Test - Look + Label,Bunny,1
+id75,Experiment 3a,2,Test - Look + Label,Frog,1
+id75,Experiment 3a,3,Control - Person,Beaver,1
+id75,Experiment 3a,4,Control - Person,Monkey,1
+id75,Experiment 3a,5,Test - Look + Label,Mouse,1
+id75,Experiment 3a,6,Control - Person,Bear,1
+id75,Experiment 3a,7,Control - Person,Tiger,1
+id75,Experiment 3a,8,Test - Look + Label,Cat,1
+id79,Experiment 3a,1,Test - Look + Label,Monkey,0
+id79,Experiment 3a,2,Test - Look + Label,Beaver,0
+id79,Experiment 3a,3,Test - Look + Label,Frog,0
+id79,Experiment 3a,4,Test - Look + Label,Mouse,1
+id79,Experiment 3a,5,Control - Person,Bunny,1
+id79,Experiment 3a,6,Control - Person,Bear,1
+id79,Experiment 3a,7,Control - Person,Tiger,1
+id79,Experiment 3a,8,Control - Person,Cat,1
+id83,Experiment 3a,1,Test - Look + Label,Beaver,1
+id83,Experiment 3a,2,Control - Person,Frog,1
+id83,Experiment 3a,3,Test - Look + Label,Mouse,1
+id83,Experiment 3a,4,Test - Look + Label,Monkey,1
+id83,Experiment 3a,5,Test - Look + Label,Bunny,1
+id83,Experiment 3a,6,Control - Person,Dog,1
+id83,Experiment 3a,7,Control - Person,Bear,1
+id83,Experiment 3a,8,Control - Person,Tiger,1
+id85,Experiment 3a,1,Test - Look + Label,Mouse,1
+id85,Experiment 3a,2,Control - Person,Beaver,0
+id85,Experiment 3a,3,Control - Person,Frog,1
+id85,Experiment 3a,4,Test - Look + Label,Dog,1
+id85,Experiment 3a,5,Control - Person,Bear,1
+id85,Experiment 3a,6,Test - Look + Label,Bunny,1
+id85,Experiment 3a,7,Test - Look + Label,Monkey,1
+id85,Experiment 3a,8,Control - Person,Tiger,0
+id89,Experiment 3a,1,Test - Look + Label,Beaver,1
+id89,Experiment 3a,2,Control - Person,Frog,0
+id89,Experiment 3a,3,Control - Person,Mouse,1
+id89,Experiment 3a,4,Test - Look + Label,Monkey,1
+id89,Experiment 3a,5,Control - Person,Bunny,1
+id89,Experiment 3a,6,Control - Person,Bear,1
+id89,Experiment 3a,7,Test - Look + Label,Dog,0
+id89,Experiment 3a,8,Test - Look + Label,Tiger,1
+id91,Experiment 3a,1,Control - Person,Mouse,1
+id91,Experiment 3a,2,Test - Look + Label,Dog,1
+id91,Experiment 3a,3,Control - Person,Frog,1
+id91,Experiment 3a,4,Control - Person,Monkey,1
+id91,Experiment 3a,5,Control - Person,Beaver,1
+id91,Experiment 3a,6,Test - Look + Label,Tiger,1
+id91,Experiment 3a,7,Test - Look + Label,Bunny,1
+id91,Experiment 3a,8,Test - Look + Label,Cat,1
+id99,Experiment 3a,1,Control - Person,Beaver,0
+id99,Experiment 3a,2,Test - Look + Label,Frog,1
+id99,Experiment 3a,3,Test - Look + Label,Monkey,1
+id99,Experiment 3a,4,Control - Person,Mouse,0
+id99,Experiment 3a,5,Control - Person,Dog,0
+id99,Experiment 3a,6,Control - Person,Bunny,0
+id99,Experiment 3a,7,Test - Look + Label,Tiger,1
+id99,Experiment 3a,8,Test - Look + Label,Cat,1
+id108,Experiment 3a,1,Control - Person,Frog,1
+id108,Experiment 3a,2,Test - Look + Label,Mouse,0
+id108,Experiment 3a,3,Control - Person,Monkey,1
+id108,Experiment 3a,4,Control - Person,Bear,1
+id108,Experiment 3a,5,Test - Look + Label,Beaver,1
+id108,Experiment 3a,6,Test - Look + Label,Bunny,0
+id108,Experiment 3a,7,Control - Person,Dog,1
+id108,Experiment 3a,8,Test - Look + Label,Tiger,1
+id138,Experiment 3a,1,Control - Person,Beaver,1
+id138,Experiment 3a,2,Control - Person,Monkey,1
+id138,Experiment 3a,3,Test - Look + Label,Frog,1
+id138,Experiment 3a,4,Test - Look + Label,Bunny,0
+id138,Experiment 3a,5,Control - Person,Mouse,1
+id138,Experiment 3a,6,Control - Person,Dog,0
+id138,Experiment 3a,7,Test - Look + Label,Bear,0
+id138,Experiment 3a,8,Test - Look + Label,Tiger,1
+id139,Experiment 3a,1,Test - Look + Label,Mouse,1
+id139,Experiment 3a,2,Control - Person,Bunny,1
+id139,Experiment 3a,3,Test - Look + Label,Frog,1
+id139,Experiment 3a,4,Control - Person,Beaver,1
+id139,Experiment 3a,5,Control - Person,Dog,1
+id139,Experiment 3a,6,Test - Look + Label,Bear,1
+id139,Experiment 3a,7,Test - Look + Label,Tiger,1
+id139,Experiment 3a,8,Control - Person,Sheep,1
+id148,Experiment 3a,1,Test - Look + Label,Frog,0
+id148,Experiment 3a,2,Control - Person,Beaver,0
+id148,Experiment 3a,3,Control - Person,Monkey,1
+id148,Experiment 3a,4,Test - Look + Label,Mouse,0
+id148,Experiment 3a,5,Test - Look + Label,Bunny,1
+id148,Experiment 3a,6,Control - Person,Sheep,0
+id148,Experiment 3a,7,Control - Person,Bear,1
+id148,Experiment 3a,8,Test - Look + Label,Dog,0
+id169,Experiment 3a,1,Control - Person,Beaver,1
+id169,Experiment 3a,2,Control - Person,Mouse,1
+id169,Experiment 3a,3,Test - Look + Label,Monkey,1
+id169,Experiment 3a,4,Control - Person,Frog,1
+id169,Experiment 3a,5,Test - Look + Label,Cat,1
+id169,Experiment 3a,6,Test - Look + Label,Dog,1
+id169,Experiment 3a,7,Control - Person,Bunny,1
+id169,Experiment 3a,8,Test - Look + Label,Tiger,1
+id180,Experiment 3a,1,Control - Person,Beaver,1
+id180,Experiment 3a,2,Test - Look + Label,Frog,1
+id180,Experiment 3a,3,Test - Look + Label,Mouse,1
+id180,Experiment 3a,4,Control - Person,Bunny,1
+id180,Experiment 3a,5,Control - Person,Monkey,0
+id180,Experiment 3a,6,Test - Look + Label,Cat,0
+id180,Experiment 3a,7,Control - Person,Bear,0
+id180,Experiment 3a,8,Test - Look + Label,Dog,1
+id182,Experiment 3a,1,Control - Person,Dog,1
+id182,Experiment 3a,2,Test - Look + Label,Frog,1
+id182,Experiment 3a,3,Test - Look + Label,Beaver,1
+id182,Experiment 3a,4,Test - Look + Label,Bear,1
+id182,Experiment 3a,5,Control - Person,Sheep,1
+id182,Experiment 3a,6,Test - Look + Label,Bunny,1
+id182,Experiment 3a,7,Control - Person,Mouse,1
+id182,Experiment 3a,8,Control - Person,Monkey,1
+id191,Experiment 3a,1,Test - Look + Label,Mouse,1
+id191,Experiment 3a,2,Test - Look + Label,Frog,0
+id191,Experiment 3a,3,Control - Person,Dog,1
+id191,Experiment 3a,4,Control - Person,Beaver,1
+id191,Experiment 3a,5,Test - Look + Label,Monkey,1
+id191,Experiment 3a,6,Control - Person,Tiger,1
+id191,Experiment 3a,7,Test - Look + Label,Bunny,1
+id191,Experiment 3a,8,Control - Person,Bear,1
+id198,Experiment 3a,1,Test - Look + Label,Bunny,1
+id198,Experiment 3a,2,Control - Person,Frog,1
+id198,Experiment 3a,3,Test - Look + Label,Tiger,1
+id198,Experiment 3a,4,Control - Person,Mouse,0
+id198,Experiment 3a,5,Control - Person,Beaver,1
+id198,Experiment 3a,6,Control - Person,Dog,1
+id198,Experiment 3a,7,Test - Look + Label,Cat,1
+id198,Experiment 3a,8,Test - Look + Label,Bear,1
+id204,Experiment 3a,1,Control - Person,Beaver,1
+id204,Experiment 3a,2,Control - Person,Frog,1
+id204,Experiment 3a,3,Test - Look + Label,Mouse,1
+id204,Experiment 3a,4,Control - Person,Dog,1
+id204,Experiment 3a,5,Test - Look + Label,Monkey,1
+id204,Experiment 3a,6,Test - Look + Label,Bear,1
+id204,Experiment 3a,7,Control - Person,Bunny,1
+id204,Experiment 3a,8,Test - Look + Label,Cat,1
+id205,Experiment 3a,1,Control - Person,Frog,0
+id205,Experiment 3a,2,Test - Look + Label,Beaver,1
+id205,Experiment 3a,3,Test - Look + Label,Mouse,0
+id205,Experiment 3a,4,Test - Look + Label,Tiger,0
+id205,Experiment 3a,5,Control - Person,Bear,0
+id205,Experiment 3a,6,Control - Person,Dog,0
+id205,Experiment 3a,7,Control - Person,Monkey,1
+id205,Experiment 3a,8,Test - Look + Label,Bunny,1
+id231,Experiment 3a,1,Control - Person,Dog,0
+id231,Experiment 3a,2,Control - Person,Bunny,1
+id231,Experiment 3a,3,Test - Look + Label,Beaver,1
+id231,Experiment 3a,4,Test - Look + Label,Monkey,0
+id231,Experiment 3a,5,Control - Person,Frog,1
+id231,Experiment 3a,6,Test - Look + Label,Bear,0
+id231,Experiment 3a,7,Control - Person,Mouse,1
+id231,Experiment 3a,8,Test - Look + Label,Tiger,1
+id1,Experiment 3b,1,Test - Look + Label,Bunny,1
+id1,Experiment 3b,2,Test - Look + Label,Frog,1
+id1,Experiment 3b,3,Control - Bell,Monkey,1
+id1,Experiment 3b,4,Test - Look + Label,Bear,1
+id1,Experiment 3b,5,Control - Bell,Mouse,1
+id1,Experiment 3b,6,Control - Bell,Beaver,1
+id1,Experiment 3b,7,Test - Look + Label,Tiger,1
+id1,Experiment 3b,8,Control - Bell,Dog,1
+id2,Experiment 3b,1,Test - Look + Label,Bunny,1
+id2,Experiment 3b,2,Control - Bell,Mouse,1
+id2,Experiment 3b,3,Test - Look + Label,Frog,0
+id2,Experiment 3b,4,Test - Look + Label,Dog,1
+id2,Experiment 3b,5,Control - Bell,Monkey,1
+id2,Experiment 3b,6,Test - Look + Label,Beaver,1
+id2,Experiment 3b,7,Control - Bell,Tiger,1
+id2,Experiment 3b,8,Control - Bell,Bear,1
+id5,Experiment 3b,1,Control - Bell,Monkey,1
+id5,Experiment 3b,2,Test - Look + Label,Dog,0
+id5,Experiment 3b,3,Test - Look + Label,Frog,1
+id5,Experiment 3b,4,Control - Bell,Mouse,1
+id5,Experiment 3b,5,Control - Bell,Beaver,0
+id5,Experiment 3b,6,Test - Look + Label,Bunny,1
+id5,Experiment 3b,7,Test - Look + Label,Tiger,1
+id5,Experiment 3b,8,Control - Bell,Bear,0
+id16,Experiment 3b,1,Test - Look + Label,Monkey,1
+id16,Experiment 3b,2,Test - Look + Label,Frog,1
+id16,Experiment 3b,3,Test - Look + Label,Beaver,1
+id16,Experiment 3b,4,Control - Bell,Bunny,0
+id16,Experiment 3b,5,Test - Look + Label,Tiger,1
+id16,Experiment 3b,6,Control - Bell,Bear,0
+id16,Experiment 3b,7,Control - Bell,Dog,0
+id16,Experiment 3b,8,Control - Bell,Sheep,0
+id20,Experiment 3b,1,Test - Look + Label,Frog,1
+id20,Experiment 3b,2,Control - Bell,Mouse,1
+id20,Experiment 3b,3,Control - Bell,Monkey,1
+id20,Experiment 3b,4,Test - Look + Label,Beaver,1
+id20,Experiment 3b,5,Test - Look + Label,Bunny,1
+id20,Experiment 3b,6,Test - Look + Label,Dog,1
+id20,Experiment 3b,7,Control - Bell,Tiger,1
+id20,Experiment 3b,8,Control - Bell,Bear,1
+id41,Experiment 3b,1,Test - Look + Label,Mouse,1
+id41,Experiment 3b,2,Test - Look + Label,Beaver,1
+id41,Experiment 3b,3,Control - Bell,Frog,0
+id41,Experiment 3b,4,Test - Look + Label,Monkey,1
+id41,Experiment 3b,5,Control - Bell,Bunny,1
+id41,Experiment 3b,6,Control - Bell,Dog,1
+id41,Experiment 3b,7,Test - Look + Label,Bear,1
+id41,Experiment 3b,8,Control - Bell,Sheep,1
+id52,Experiment 3b,1,Control - Bell,Mouse,1
+id52,Experiment 3b,2,Test - Look + Label,Frog,1
+id52,Experiment 3b,3,Test - Look + Label,Beaver,0
+id52,Experiment 3b,4,Test - Look + Label,Monkey,1
+id52,Experiment 3b,5,Control - Bell,Dog,0
+id52,Experiment 3b,6,Control - Bell,Bunny,0
+id52,Experiment 3b,7,Control - Bell,Cat,0
+id52,Experiment 3b,8,Test - Look + Label,Bear,1
+id71,Experiment 3b,1,Test - Look + Label,Monkey,0
+id71,Experiment 3b,2,Control - Bell,Frog,1
+id71,Experiment 3b,3,Test - Look + Label,Beaver,1
+id71,Experiment 3b,4,Control - Bell,Mouse,1
+id71,Experiment 3b,5,Control - Bell,Dog,0
+id71,Experiment 3b,6,Test - Look + Label,Bear,1
+id71,Experiment 3b,7,Test - Look + Label,Cat,1
+id71,Experiment 3b,8,Control - Bell,Sheep,1
+id106,Experiment 3b,1,Test - Look + Label,Mouse,0
+id106,Experiment 3b,2,Test - Look + Label,Beaver,1
+id106,Experiment 3b,3,Test - Look + Label,Frog,1
+id106,Experiment 3b,4,Control - Bell,Monkey,1
+id106,Experiment 3b,5,Control - Bell,Cat,1
+id106,Experiment 3b,6,Test - Look + Label,Bunny,1
+id106,Experiment 3b,7,Control - Bell,Dog,1
+id106,Experiment 3b,8,Control - Bell,Bear,1
+id107,Experiment 3b,1,Test - Look + Label,Mouse,1
+id107,Experiment 3b,2,Control - Bell,Monkey,1
+id107,Experiment 3b,3,Control - Bell,Beaver,1
+id107,Experiment 3b,4,Test - Look + Label,Dog,1
+id107,Experiment 3b,5,Test - Look + Label,Tiger,1
+id107,Experiment 3b,6,Control - Bell,Bunny,1
+id107,Experiment 3b,7,Test - Look + Label,Frog,1
+id107,Experiment 3b,8,Control - Bell,Cat,1
+id114,Experiment 3b,1,Control - Bell,Frog,1
+id114,Experiment 3b,2,Control - Bell,Mouse,1
+id114,Experiment 3b,3,Control - Bell,Beaver,0
+id114,Experiment 3b,4,Test - Look + Label,Monkey,0
+id114,Experiment 3b,5,Test - Look + Label,Bear,1
+id114,Experiment 3b,6,Test - Look + Label,Bunny,1
+id114,Experiment 3b,7,Test - Look + Label,Dog,1
+id114,Experiment 3b,8,Control - Bell,Tiger,1
+id116,Experiment 3b,1,Control - Bell,Bear,1
+id116,Experiment 3b,2,Control - Bell,Bunny,1
+id116,Experiment 3b,3,Test - Look + Label,Frog,1
+id116,Experiment 3b,4,Control - Bell,Monkey,1
+id116,Experiment 3b,5,Test - Look + Label,Mouse,1
+id116,Experiment 3b,6,Test - Look + Label,Beaver,1
+id116,Experiment 3b,7,Test - Look + Label,Dog,1
+id116,Experiment 3b,8,Control - Bell,Tiger,1
+id122,Experiment 3b,1,Control - Bell,Bunny,1
+id122,Experiment 3b,2,Test - Look + Label,Beaver,0
+id122,Experiment 3b,3,Control - Bell,Frog,0
+id122,Experiment 3b,4,Control - Bell,Dog,0
+id122,Experiment 3b,5,Test - Look + Label,Monkey,1
+id122,Experiment 3b,6,Test - Look + Label,Mouse,1
+id122,Experiment 3b,7,Test - Look + Label,Tiger,0
+id122,Experiment 3b,8,Control - Bell,Bear,0
+id130,Experiment 3b,1,Control - Bell,Frog,0
+id130,Experiment 3b,2,Control - Bell,Beaver,1
+id130,Experiment 3b,3,Test - Look + Label,Mouse,0
+id130,Experiment 3b,4,Test - Look + Label,Monkey,0
+id130,Experiment 3b,5,Control - Bell,Tiger,0
+id130,Experiment 3b,6,Test - Look + Label,Bunny,0
+id130,Experiment 3b,7,Control - Bell,Bear,0
+id130,Experiment 3b,8,Test - Look + Label,Dog,1
+id131,Experiment 3b,1,Control - Bell,Frog,1
+id131,Experiment 3b,2,Test - Look + Label,Mouse,1
+id131,Experiment 3b,3,Control - Bell,Beaver,0
+id131,Experiment 3b,4,Test - Look + Label,Bunny,1
+id131,Experiment 3b,5,Test - Look + Label,Monkey,1
+id131,Experiment 3b,6,Control - Bell,Tiger,1
+id131,Experiment 3b,7,Test - Look + Label,Dog,1
+id131,Experiment 3b,8,Control - Bell,Sheep,1
+id135,Experiment 3b,1,Test - Look + Label,Frog,1
+id135,Experiment 3b,2,Control - Bell,Beaver,0
+id135,Experiment 3b,3,Test - Look + Label,Mouse,0
+id135,Experiment 3b,4,Control - Bell,Monkey,0
+id135,Experiment 3b,5,Control - Bell,Dog,0
+id135,Experiment 3b,6,Control - Bell,Bear,1
+id135,Experiment 3b,7,Test - Look + Label,Bunny,1
+id135,Experiment 3b,8,Test - Look + Label,Sheep,0
+id145,Experiment 3b,1,Test - Look + Label,Mouse,0
+id145,Experiment 3b,2,Test - Look + Label,Beaver,0
+id145,Experiment 3b,3,Control - Bell,Frog,0
+id145,Experiment 3b,4,Control - Bell,Dog,0
+id145,Experiment 3b,5,Control - Bell,Bunny,0
+id145,Experiment 3b,6,Test - Look + Label,Monkey,0
+id145,Experiment 3b,7,Control - Bell,Tiger,0
+id145,Experiment 3b,8,Test - Look + Label,Sheep,0
+id151,Experiment 3b,1,Test - Look + Label,Beaver,1
+id151,Experiment 3b,2,Control - Bell,Frog,1
+id151,Experiment 3b,3,Control - Bell,Mouse,1
+id151,Experiment 3b,4,Test - Look + Label,Bear,1
+id151,Experiment 3b,5,Control - Bell,Bunny,1
+id151,Experiment 3b,6,Control - Bell,Tiger,1
+id151,Experiment 3b,7,Test - Look + Label,Dog,1
+id151,Experiment 3b,8,Test - Look + Label,Cat,1
+id153,Experiment 3b,1,Test - Look + Label,Frog,1
+id153,Experiment 3b,2,Control - Bell,Beaver,1
+id153,Experiment 3b,3,Control - Bell,Mouse,1
+id153,Experiment 3b,4,Control - Bell,Bunny,1
+id153,Experiment 3b,5,Test - Look + Label,Monkey,1
+id153,Experiment 3b,6,Test - Look + Label,Dog,1
+id153,Experiment 3b,7,Control - Bell,Cat,0
+id153,Experiment 3b,8,Test - Look + Label,Sheep,1
+id163,Experiment 3b,1,Test - Look + Label,Beaver,1
+id163,Experiment 3b,2,Test - Look + Label,Bunny,1
+id163,Experiment 3b,3,Test - Look + Label,Mouse,1
+id163,Experiment 3b,4,Test - Look + Label,Frog,1
+id163,Experiment 3b,5,Control - Bell,Monkey,1
+id163,Experiment 3b,6,Control - Bell,Dog,1
+id163,Experiment 3b,7,Control - Bell,Bear,1
+id163,Experiment 3b,8,Control - Bell,Tiger,1
+id174,Experiment 3b,1,Test - Look + Label,Beaver,0
+id174,Experiment 3b,2,Control - Bell,Frog,1
+id174,Experiment 3b,3,Test - Look + Label,Mouse,1
+id174,Experiment 3b,4,Test - Look + Label,Monkey,1
+id174,Experiment 3b,5,Control - Bell,Bunny,1
+id174,Experiment 3b,6,Test - Look + Label,Bear,1
+id174,Experiment 3b,7,Control - Bell,Dog,0
+id174,Experiment 3b,8,Control - Bell,Tiger,0
+id179,Experiment 3b,1,Control - Bell,Beaver,0
+id179,Experiment 3b,2,Test - Look + Label,Frog,0
+id179,Experiment 3b,3,Test - Look + Label,Mouse,0
+id179,Experiment 3b,4,Test - Look + Label,Tiger,1
+id179,Experiment 3b,5,Control - Bell,Monkey,0
+id179,Experiment 3b,6,Test - Look + Label,Cat,1
+id179,Experiment 3b,7,Control - Bell,Bunny,0
+id179,Experiment 3b,8,Control - Bell,Bear,0
+id183,Experiment 3b,1,Test - Look + Label,Beaver,1
+id183,Experiment 3b,2,Control - Bell,Frog,1
+id183,Experiment 3b,3,Control - Bell,Mouse,0
+id183,Experiment 3b,4,Test - Look + Label,Bunny,0
+id183,Experiment 3b,5,Control - Bell,Monkey,1
+id183,Experiment 3b,6,Control - Bell,Dog,0
+id183,Experiment 3b,7,Test - Look + Label,Bear,0
+id183,Experiment 3b,8,Test - Look + Label,Tiger,0
+id186,Experiment 3b,1,Control - Bell,Beaver,1
+id186,Experiment 3b,2,Control - Bell,Frog,0
+id186,Experiment 3b,3,Test - Look + Label,Bunny,0
+id186,Experiment 3b,4,Test - Look + Label,Cat,1
+id186,Experiment 3b,5,Test - Look + Label,Mouse,0
+id186,Experiment 3b,6,Control - Bell,Sheep,0
+id186,Experiment 3b,7,Control - Bell,Dog,0
+id186,Experiment 3b,8,Test - Look + Label,Bear,1
+id194,Experiment 3b,1,Test - Look + Label,Mouse,1
+id194,Experiment 3b,2,Control - Bell,Frog,1
+id194,Experiment 3b,3,Control - Bell,Beaver,0
+id194,Experiment 3b,4,Control - Bell,Monkey,0
+id194,Experiment 3b,5,Test - Look + Label,Bunny,1
+id194,Experiment 3b,6,Test - Look + Label,Dog,1
+id194,Experiment 3b,7,Test - Look + Label,Bear,1
+id194,Experiment 3b,8,Control - Bell,Tiger,1
+id203,Experiment 3b,1,Test - Look + Label,Frog,1
+id203,Experiment 3b,2,Control - Bell,Beaver,0
+id203,Experiment 3b,3,Control - Bell,Bunny,1
+id203,Experiment 3b,4,Test - Look + Label,Monkey,1
+id203,Experiment 3b,5,Test - Look + Label,Mouse,0
+id203,Experiment 3b,6,Control - Bell,Dog,0
+id203,Experiment 3b,7,Control - Bell,Bear,0
+id203,Experiment 3b,8,Test - Look + Label,Tiger,0
+id207,Experiment 3b,1,Control - Bell,Mouse,1
+id207,Experiment 3b,2,Test - Look + Label,Frog,1
+id207,Experiment 3b,3,Test - Look + Label,Sheep,0
+id207,Experiment 3b,4,Test - Look + Label,Beaver,0
+id207,Experiment 3b,5,Control - Bell,Dog,0
+id207,Experiment 3b,6,Control - Bell,Monkey,0
+id207,Experiment 3b,7,Control - Bell,Bunny,0
+id207,Experiment 3b,8,Test - Look + Label,Bear,0
+id216,Experiment 3b,1,Control - Bell,Beaver,1
+id216,Experiment 3b,2,Test - Look + Label,Frog,1
+id216,Experiment 3b,3,Test - Look + Label,Mouse,1
+id216,Experiment 3b,4,Test - Look + Label,Dog,1
+id216,Experiment 3b,5,Control - Bell,Cat,1
+id216,Experiment 3b,6,Test - Look + Label,Bear,1
+id216,Experiment 3b,7,Control - Bell,Bunny,1
+id216,Experiment 3b,8,Control - Bell,Tiger,0
+id221,Experiment 3b,1,Control - Bell,Beaver,0
+id221,Experiment 3b,2,Test - Look + Label,Frog,1
+id221,Experiment 3b,3,Test - Look + Label,Monkey,1
+id221,Experiment 3b,4,Test - Look + Label,Mouse,1
+id221,Experiment 3b,5,Control - Bell,Bunny,1
+id221,Experiment 3b,6,Control - Bell,Bear,1
+id221,Experiment 3b,7,Test - Look + Label,Tiger,1
+id221,Experiment 3b,8,Control - Bell,Cat,1
+id224,Experiment 3b,1,Control - Bell,Beaver,1
+id224,Experiment 3b,2,Control - Bell,Monkey,0
+id224,Experiment 3b,3,Test - Look + Label,Frog,0
+id224,Experiment 3b,4,Test - Look + Label,Bunny,1
+id224,Experiment 3b,5,Test - Look + Label,Dog,1
+id224,Experiment 3b,6,Control - Bell,Mouse,1
+id224,Experiment 3b,7,Test - Look + Label,Sheep,1
+id224,Experiment 3b,8,Control - Bell,Bear,1
+id35,Experiment 3c,1,Control - Tornado,Beaver,1
+id35,Experiment 3c,2,Test - Look + Label,Frog,1
+id35,Experiment 3c,3,Test - Look + Label,Dog,1
+id35,Experiment 3c,4,Control - Tornado,Mouse,1
+id35,Experiment 3c,5,Test - Look + Label,Tiger,1
+id35,Experiment 3c,6,Control - Tornado,Bear,1
+id35,Experiment 3c,7,Control - Tornado,Monkey,1
+id35,Experiment 3c,8,Test - Look + Label,Cat,1
+id42,Experiment 3c,1,Control - Tornado,Frog,0
+id42,Experiment 3c,2,Test - Look + Label,Beaver,0
+id42,Experiment 3c,3,Control - Tornado,Mouse,0
+id42,Experiment 3c,4,Test - Look + Label,Monkey,0
+id42,Experiment 3c,5,Control - Tornado,Bunny,0
+id42,Experiment 3c,6,Test - Look + Label,Dog,0
+id42,Experiment 3c,7,Control - Tornado,Bear,0
+id42,Experiment 3c,8,Test - Look + Label,Cat,0
+id45,Experiment 3c,1,Control - Tornado,Monkey,0
+id45,Experiment 3c,2,Test - Look + Label,Mouse,1
+id45,Experiment 3c,3,Test - Look + Label,Beaver,1
+id45,Experiment 3c,4,Control - Tornado,Bunny,0
+id45,Experiment 3c,5,Test - Look + Label,Frog,1
+id45,Experiment 3c,6,Control - Tornado,Tiger,0
+id45,Experiment 3c,7,Test - Look + Label,Dog,0
+id45,Experiment 3c,8,Control - Tornado,Bear,0
+id46,Experiment 3c,1,Control - Tornado,Mouse,0
+id46,Experiment 3c,2,Test - Look + Label,Beaver,1
+id46,Experiment 3c,3,Test - Look + Label,Bunny,1
+id46,Experiment 3c,4,Test - Look + Label,Bear,1
+id46,Experiment 3c,5,Control - Tornado,Frog,0
+id46,Experiment 3c,6,Test - Look + Label,Monkey,1
+id46,Experiment 3c,7,Control - Tornado,Dog,0
+id46,Experiment 3c,8,Control - Tornado,Tiger,0
+id57,Experiment 3c,1,Test - Look + Label,Beaver,1
+id57,Experiment 3c,2,Test - Look + Label,Monkey,1
+id57,Experiment 3c,3,Control - Tornado,Frog,1
+id57,Experiment 3c,4,Test - Look + Label,Mouse,1
+id57,Experiment 3c,5,Test - Look + Label,Bunny,1
+id57,Experiment 3c,6,Control - Tornado,Dog,0
+id57,Experiment 3c,7,Control - Tornado,Tiger,0
+id57,Experiment 3c,8,Control - Tornado,Bear,0
+id61,Experiment 3c,1,Control - Tornado,Frog,1
+id61,Experiment 3c,2,Test - Look + Label,Mouse,0
+id61,Experiment 3c,3,Test - Look + Label,Bunny,1
+id61,Experiment 3c,4,Control - Tornado,Monkey,1
+id61,Experiment 3c,5,Control - Tornado,Beaver,0
+id61,Experiment 3c,6,Test - Look + Label,Dog,1
+id61,Experiment 3c,7,Control - Tornado,Cat,1
+id61,Experiment 3c,8,Test - Look + Label,Bear,1
+id64,Experiment 3c,1,Test - Look + Label,Mouse,1
+id64,Experiment 3c,2,Control - Tornado,Beaver,1
+id64,Experiment 3c,3,Test - Look + Label,Frog,1
+id64,Experiment 3c,4,Control - Tornado,Bunny,1
+id64,Experiment 3c,5,Control - Tornado,Bear,1
+id64,Experiment 3c,6,Test - Look + Label,Monkey,1
+id64,Experiment 3c,7,Test - Look + Label,Tiger,1
+id64,Experiment 3c,8,Control - Tornado,Cat,1
+id88,Experiment 3c,1,Test - Look + Label,Beaver,1
+id88,Experiment 3c,2,Control - Tornado,Frog,1
+id88,Experiment 3c,3,Control - Tornado,Mouse,1
+id88,Experiment 3c,4,Control - Tornado,Monkey,0
+id88,Experiment 3c,5,Control - Tornado,Bunny,1
+id88,Experiment 3c,6,Test - Look + Label,Bear,1
+id88,Experiment 3c,7,Test - Look + Label,Tiger,1
+id88,Experiment 3c,8,Test - Look + Label,Dog,1
+id90,Experiment 3c,1,Test - Look + Label,Dog,1
+id90,Experiment 3c,2,Test - Look + Label,Mouse,1
+id90,Experiment 3c,3,Control - Tornado,Beaver,1
+id90,Experiment 3c,4,Control - Tornado,Monkey,0
+id90,Experiment 3c,5,Control - Tornado,Bear,0
+id90,Experiment 3c,6,Test - Look + Label,Frog,1
+id90,Experiment 3c,7,Control - Tornado,Tiger,0
+id90,Experiment 3c,8,Test - Look + Label,Bunny,0
+id94,Experiment 3c,1,Control - Tornado,Beaver,1
+id94,Experiment 3c,2,Control - Tornado,Monkey,0
+id94,Experiment 3c,3,Control - Tornado,Frog,0
+id94,Experiment 3c,4,Test - Look + Label,Dog,1
+id94,Experiment 3c,5,Control - Tornado,Bear,0
+id94,Experiment 3c,6,Test - Look + Label,Mouse,1
+id94,Experiment 3c,7,Test - Look + Label,Bunny,1
+id94,Experiment 3c,8,Test - Look + Label,Cat,1
+id98,Experiment 3c,1,Control - Tornado,Mouse,0
+id98,Experiment 3c,2,Test - Look + Label,Dog,0
+id98,Experiment 3c,3,Test - Look + Label,Bunny,0
+id98,Experiment 3c,4,Test - Look + Label,Beaver,0
+id98,Experiment 3c,5,Control - Tornado,Monkey,1
+id98,Experiment 3c,6,Control - Tornado,Bear,0
+id98,Experiment 3c,7,Test - Look + Label,Frog,1
+id98,Experiment 3c,8,Control - Tornado,Cat,0
+id105,Experiment 3c,1,Control - Tornado,Frog,0
+id105,Experiment 3c,2,Test - Look + Label,Beaver,0
+id105,Experiment 3c,3,Control - Tornado,Monkey,0
+id105,Experiment 3c,4,Control - Tornado,Bunny,0
+id105,Experiment 3c,5,Test - Look + Label,Bear,1
+id105,Experiment 3c,6,Control - Tornado,Dog,1
+id105,Experiment 3c,7,Test - Look + Label,Mouse,1
+id105,Experiment 3c,8,Test - Look + Label,Cat,1
+id109,Experiment 3c,1,Control - Tornado,Bunny,0
+id109,Experiment 3c,2,Control - Tornado,Monkey,1
+id109,Experiment 3c,3,Control - Tornado,Mouse,1
+id109,Experiment 3c,4,Control - Tornado,Beaver,1
+id109,Experiment 3c,5,Test - Look + Label,Frog,1
+id109,Experiment 3c,6,Test - Look + Label,Dog,1
+id109,Experiment 3c,7,Test - Look + Label,Sheep,1
+id109,Experiment 3c,8,Test - Look + Label,Tiger,1
+id113,Experiment 3c,1,Test - Look + Label,Beaver,0
+id113,Experiment 3c,2,Control - Tornado,Frog,0
+id113,Experiment 3c,3,Test - Look + Label,Mouse,1
+id113,Experiment 3c,4,Control - Tornado,Monkey,0
+id113,Experiment 3c,5,Control - Tornado,Bunny,1
+id113,Experiment 3c,6,Test - Look + Label,Dog,1
+id113,Experiment 3c,7,Control - Tornado,Tiger,0
+id113,Experiment 3c,8,Test - Look + Label,Bear,0
+id125,Experiment 3c,1,Control - Tornado,Frog,0
+id125,Experiment 3c,2,Test - Look + Label,Beaver,1
+id125,Experiment 3c,3,Control - Tornado,Bunny,1
+id125,Experiment 3c,4,Test - Look + Label,Dog,1
+id125,Experiment 3c,5,Test - Look + Label,Monkey,0
+id125,Experiment 3c,6,Test - Look + Label,Mouse,1
+id125,Experiment 3c,7,Control - Tornado,Tiger,1
+id125,Experiment 3c,8,Control - Tornado,Bear,1
+id127,Experiment 3c,1,Test - Look + Label,Beaver,1
+id127,Experiment 3c,2,Control - Tornado,Frog,1
+id127,Experiment 3c,3,Control - Tornado,Monkey,1
+id127,Experiment 3c,4,Control - Tornado,Mouse,0
+id127,Experiment 3c,5,Test - Look + Label,Bunny,1
+id127,Experiment 3c,6,Control - Tornado,Bear,0
+id127,Experiment 3c,7,Test - Look + Label,Cat,1
+id127,Experiment 3c,8,Test - Look + Label,Dog,1
+id129,Experiment 3c,1,Control - Tornado,Bunny,1
+id129,Experiment 3c,2,Test - Look + Label,Beaver,1
+id129,Experiment 3c,3,Test - Look + Label,Frog,1
+id129,Experiment 3c,4,Test - Look + Label,Bear,1
+id129,Experiment 3c,5,Control - Tornado,Dog,1
+id129,Experiment 3c,6,Test - Look + Label,Monkey,1
+id129,Experiment 3c,7,Control - Tornado,Tiger,1
+id129,Experiment 3c,8,Control - Tornado,Cat,1
+id140,Experiment 3c,1,Control - Tornado,Mouse,0
+id140,Experiment 3c,2,Test - Look + Label,Bunny,1
+id140,Experiment 3c,3,Test - Look + Label,Beaver,1
+id140,Experiment 3c,4,Control - Tornado,Dog,1
+id140,Experiment 3c,5,Test - Look + Label,Frog,1
+id140,Experiment 3c,6,Test - Look + Label,Monkey,0
+id140,Experiment 3c,7,Control - Tornado,Tiger,1
+id140,Experiment 3c,8,Control - Tornado,Sheep,1
+id142,Experiment 3c,1,Control - Tornado,Bear,0
+id142,Experiment 3c,2,Test - Look + Label,Frog,1
+id142,Experiment 3c,3,Control - Tornado,Monkey,0
+id142,Experiment 3c,4,Control - Tornado,Beaver,1
+id142,Experiment 3c,5,Test - Look + Label,Mouse,0
+id142,Experiment 3c,6,Control - Tornado,Bunny,1
+id142,Experiment 3c,7,Test - Look + Label,Dog,1
+id142,Experiment 3c,8,Test - Look + Label,Tiger,1
+id155,Experiment 3c,1,Control - Tornado,Beaver,1
+id155,Experiment 3c,2,Test - Look + Label,Frog,1
+id155,Experiment 3c,3,Test - Look + Label,Bunny,1
+id155,Experiment 3c,4,Control - Tornado,Monkey,1
+id155,Experiment 3c,5,Test - Look + Label,Mouse,0
+id155,Experiment 3c,6,Test - Look + Label,Cat,1
+id155,Experiment 3c,7,Control - Tornado,Dog,0
+id155,Experiment 3c,8,Control - Tornado,Sheep,1
+id160,Experiment 3c,1,Test - Look + Label,Frog,1
+id160,Experiment 3c,2,Test - Look + Label,Beaver,1
+id160,Experiment 3c,3,Test - Look + Label,Mouse,1
+id160,Experiment 3c,4,Control - Tornado,Bunny,1
+id160,Experiment 3c,5,Control - Tornado,Monkey,1
+id160,Experiment 3c,6,Test - Look + Label,Bear,1
+id160,Experiment 3c,7,Control - Tornado,Dog,0
+id160,Experiment 3c,8,Control - Tornado,Cat,0
+id162,Experiment 3c,1,Control - Tornado,Beaver,0
+id162,Experiment 3c,2,Test - Look + Label,Frog,1
+id162,Experiment 3c,3,Test - Look + Label,Mouse,1
+id162,Experiment 3c,4,Control - Tornado,Bunny,0
+id162,Experiment 3c,5,Control - Tornado,Dog,1
+id162,Experiment 3c,6,Control - Tornado,Monkey,1
+id162,Experiment 3c,7,Test - Look + Label,Bear,1
+id162,Experiment 3c,8,Test - Look + Label,Tiger,1
+id167,Experiment 3c,1,Control - Tornado,Monkey,1
+id167,Experiment 3c,2,Test - Look + Label,Beaver,1
+id167,Experiment 3c,3,Test - Look + Label,Mouse,1
+id167,Experiment 3c,4,Test - Look + Label,Frog,1
+id167,Experiment 3c,5,Control - Tornado,Bunny,1
+id167,Experiment 3c,6,Test - Look + Label,Cat,1
+id167,Experiment 3c,7,Control - Tornado,Dog,1
+id167,Experiment 3c,8,Control - Tornado,Sheep,1
+id173,Experiment 3c,1,Test - Look + Label,Beaver,1
+id173,Experiment 3c,2,Test - Look + Label,Frog,0
+id173,Experiment 3c,3,Control - Tornado,Monkey,0
+id173,Experiment 3c,4,Control - Tornado,Bunny,0
+id173,Experiment 3c,5,Control - Tornado,Mouse,1
+id173,Experiment 3c,6,Control - Tornado,Dog,1
+id173,Experiment 3c,7,Test - Look + Label,Cat,0
+id173,Experiment 3c,8,Test - Look + Label,Tiger,0
+id177,Experiment 3c,1,Test - Look + Label,Monkey,1
+id177,Experiment 3c,2,Test - Look + Label,Beaver,1
+id177,Experiment 3c,3,Control - Tornado,Frog,0
+id177,Experiment 3c,4,Control - Tornado,Mouse,0
+id177,Experiment 3c,5,Test - Look + Label,Bunny,1
+id177,Experiment 3c,6,Test - Look + Label,Dog,1
+id177,Experiment 3c,7,Control - Tornado,Cat,0
+id177,Experiment 3c,8,Control - Tornado,Bear,0
+id184,Experiment 3c,1,Test - Look + Label,Frog,1
+id184,Experiment 3c,2,Test - Look + Label,Mouse,1
+id184,Experiment 3c,3,Test - Look + Label,Dog,1
+id184,Experiment 3c,4,Control - Tornado,Bunny,0
+id184,Experiment 3c,5,Test - Look + Label,Beaver,1
+id184,Experiment 3c,6,Control - Tornado,Bear,1
+id184,Experiment 3c,7,Control - Tornado,Monkey,1
+id184,Experiment 3c,8,Control - Tornado,Tiger,1
+id189,Experiment 3c,1,Test - Look + Label,Cat,1
+id189,Experiment 3c,2,Control - Tornado,Beaver,0
+id189,Experiment 3c,3,Control - Tornado,Bunny,1
+id189,Experiment 3c,4,Test - Look + Label,Frog,1
+id189,Experiment 3c,5,Test - Look + Label,Mouse,1
+id189,Experiment 3c,6,Control - Tornado,Monkey,0
+id189,Experiment 3c,7,Control - Tornado,Bear,1
+id189,Experiment 3c,8,Test - Look + Label,Tiger,1
+id211,Experiment 3c,1,Control - Tornado,Beaver,1
+id211,Experiment 3c,2,Control - Tornado,Frog,1
+id211,Experiment 3c,3,Test - Look + Label,Mouse,0
+id211,Experiment 3c,4,Control - Tornado,Monkey,1
+id211,Experiment 3c,5,Control - Tornado,Bunny,0
+id211,Experiment 3c,6,Test - Look + Label,Bear,1
+id211,Experiment 3c,7,Test - Look + Label,Sheep,1
+id211,Experiment 3c,8,Test - Look + Label,Dog,1
+id217,Experiment 3c,1,Test - Look + Label,Beaver,1
+id217,Experiment 3c,2,Test - Look + Label,Frog,0
+id217,Experiment 3c,3,Test - Look + Label,Mouse,0
+id217,Experiment 3c,4,Control - Tornado,Monkey,0
+id217,Experiment 3c,5,Control - Tornado,Bunny,1
+id217,Experiment 3c,6,Test - Look + Label,Tiger,0
+id217,Experiment 3c,7,Control - Tornado,Bear,1
+id217,Experiment 3c,8,Control - Tornado,Cat,1
+id229,Experiment 3c,1,Test - Look + Label,Frog,1
+id229,Experiment 3c,2,Control - Tornado,Beaver,1
+id229,Experiment 3c,3,Control - Tornado,Mouse,0
+id229,Experiment 3c,4,Test - Look + Label,Monkey,1
+id229,Experiment 3c,5,Test - Look + Label,Bunny,1
+id229,Experiment 3c,6,Control - Tornado,Tiger,1
+id229,Experiment 3c,7,Test - Look + Label,Bear,1
+id229,Experiment 3c,8,Control - Tornado,Dog,1

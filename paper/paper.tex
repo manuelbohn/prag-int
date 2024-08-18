@@ -1,0 +1,613 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  man,floatsintext]{apa6}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{english}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+% Manuscript styling
+\usepackage{upgreek}
+\captionsetup{font=singlespacing,justification=justified}
+
+% Table formatting
+\usepackage{longtable}
+\usepackage{lscape}
+% \usepackage[counterclockwise]{rotating}   % Landscape page setup for large tables
+\usepackage{multirow}		% Table styling
+\usepackage{tabularx}		% Control Column width
+\usepackage[flushleft]{threeparttable}	% Allows for three part tables with a specified notes section
+\usepackage{threeparttablex}            % Lets threeparttable work with longtable
+
+% Create new environments so endfloat can handle them
+% \newenvironment{ltable}
+%   {\begin{landscape}\centering\begin{threeparttable}}
+%   {\end{threeparttable}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\centering\begin{ThreePartTable}}{\end{ThreePartTable}\end{landscape}}
+
+% Enables adjusting longtable caption width to table width
+% Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
+\makeatletter
+\newcommand\LastLTentrywidth{1em}
+\newlength\longtablewidth
+\setlength{\longtablewidth}{1in}
+\newcommand{\getlongtablewidth}{\begingroup \ifcsname LT@\roman{LT@tables}\endcsname \global\longtablewidth=0pt \renewcommand{\LT@entry}[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}\@nameuse{LT@\roman{LT@tables}} \fi \endgroup}
+
+% \setlength{\parindent}{0.5in}
+% \setlength{\parskip}{0pt plus 0pt minus 0pt}
+
+% Overwrite redefinition of paragraph and subparagraph by the default LaTeX template
+% See https://github.com/crsh/papaja/issues/292
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\parindent}%
+  {0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries\itshape\typesectitle}}
+
+\renewcommand{\subparagraph}[1]{\@startsection{subparagraph}{5}{1em}%
+  {0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+  {-\z@\relax}%
+  {\normalfont\normalsize\itshape\hspace{\parindent}{#1}\textit{\addperi}}{\relax}}
+\makeatother
+
+\makeatletter
+\usepackage{etoolbox}
+\patchcmd{\maketitle}
+  {\section{\normalfont\normalsize\abstractname}}
+  {\section*{\normalfont\normalsize\abstractname}}
+  {}{\typeout{Failed to patch abstract.}}
+\patchcmd{\maketitle}
+  {\section{\protect\normalfont{\@title}}}
+  {\section*{\protect\normalfont{\@title}}}
+  {}{\typeout{Failed to patch title.}}
+\makeatother
+
+\usepackage{xpatch}
+\makeatletter
+\xapptocmd\appendix
+  {\xapptocmd\section
+    {\addcontentsline{toc}{section}{\appendixname\ifoneappendix\else~\theappendix\fi\\: #1}}
+    {}{\InnerPatchFailed}%
+  }
+{}{\PatchFailed}
+\keywords{Pragmatics, gesture, inference, communication}
+\usepackage{lineno}
+
+\linenumbers
+\usepackage{csquotes}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Pragmatics as social inference about intentional action},
+  pdfauthor={Manuel Bohn1,2 \& Michael C. Frank3},
+  pdflang={en-EN},
+  pdfkeywords={Pragmatics, gesture, inference, communication},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Pragmatics as social inference about intentional action}
+\author{Manuel Bohn\textsuperscript{1,2} \& Michael C. Frank\textsuperscript{3}}
+\date{}
+
+
+\shorttitle{Pragmatics and intentional action}
+
+\authornote{
+
+Manuel Bohn was supported by a Jacobs Foundation Research Fellowship (2022-1484-00).
+
+Correspondence concerning this article should be addressed to Manuel Bohn, Universitätsallee 1, 21335 Lüneburg, Germany. E-mail: \href{mailto:manuel.bohn@leuphana.de}{\nolinkurl{manuel.bohn@leuphana.de}}
+
+}
+
+\affiliation{\vspace{0.5cm}\textsuperscript{1} Institute of Psychology in Education, Leuphana University Lüneburg\\\textsuperscript{2} Department of Comparative Cultural Psychology, Max Planck Institute for Evolutionary Anthropology\\\textsuperscript{3} Department of Psychology, Stanford University}
+
+\abstract{%
+Pragmatic inferences are based on assumptions about how speakers communicate: speakers are taken to be cooperative and rational; they consider alternatives and make intentional choices to produce maximally informative -- linguistic or non-linguistic -- utterances. We test key implications of this view across six experiments with American-English speaking adults (N = 231). Experiments 1a and 1b showed that participants made pragmatic inferences based on different types of communicative actions, some being non-linguistic. In Experiment 2, pragmatic inferences were found to be conditional on the speaker's epistemic states. Finally, Experiments 3a to 3c showed that pragmatic inferences were made only when the communicative signal was produced intentionally. Taken together, these results strengthen the view of pragmatics as social inferences about cooperative communicative behavior.
+}
+
+
+
+\begin{document}
+\maketitle
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Human communication is not reducible to the words and sentences being uttered: there is an inferential gap between what a speaker said and what they meant. We use pragmatic inferences to close this gap and recover the intended meaning. As such, pragmatics is thought to have a central role in everyday language as well as in language learning (Bohn \& Frank, 2019; Clark, 1996). Pragmatic inferences are computed in a social-cognitive reasoning process based on assumptions about how speaker's communicate (Levinson, 2000; Sperber \& Wilson, 2001). On a Gricean view, these assumptions entail that the speaker communicates in a rational and cooperative way (Grice, 1991). The speaker is assumed to consider multiple possible utterances from which they intentionally choose the one that is maximally informative to the listener.
+
+The pragmatic inference process can be described as follows. The listener assumes that in order to communicate an intended meaning, the speaker considers multiple possible utterances. The speaker assesses how informative each utterance is -- how likely it is to convey the intended meaning -- given the context. Finally, the speaker intentionally chooses the most informative utterance. The listener works backwards through these steps and thereby recovers the speaker's intended meaning.
+
+Traditionally, utterances are taken to be linguistic expressions (Sauerland, 2012). Yet, inspired by evolutionary and developmental thinking, the idea has been put forward that pragmatic inferences are more general and can be derived from all sorts of communicative behaviors, verbal or non-verbal (Heintz \& Scott-Phillips, 2023; Moore, 2017; Sterelny, 2017; Tomasello, 2008). According to Sperber and Wilson Tomasello (2008), any kind of behavior can be used communicatively as long as it is intentionally produced for this purpose (and recognized by the listener as produced that way) (Csibra \& Gergely, 2009). As a consequence, pragmatic inferences should depend on intentionally produced non-linguistic aspects -- movements, gestures or eye gaze -- of an utterance in just the same way as on linguistic aspects.
+
+Our goal in this paper is to experimentally test three key implications of this view. First, we test if pragmatic inferences can be derived from non-linguistic acts of communication alone. Kampa and Papafragou (2023; see also Kampa, Richards, and Papafragou, 2024) have shown that adults and children make pragmatic inferences based on drawings. We advance this work to other non-linguistic expressions such as eye gaze or gestures. Second, we ask if listeners base their inferences on the speaker's epistemic states. This question is central because what the speaker knows determines what alternative utterances they could have used. In other words, intentionally choosing to produce an utterance instead of an alternative requires being aware of the alternative. This step replicates and extends earlier work documenting the use of epistemic states in pragmatic inference (Bergen \& Grodner, 2012; Breheny, Ferguson, \& Katsos, 2013; Kampa \& Papafragou, 2020; Wilson, Lawrence, \& Katsos, 2023). Finally, we assess the importance for pragmatic inference of whether the non-linguistic aspects of a communicative act were produced intentionally or not; an aspect that has not been studied intensely thus far.
+
+In our experimental setup, we focused on how listeners make pragmatic inferences to identify the referent of a novel word (Bohn, Tessler, Merrick, \& Frank, 2022; Frank \& Goodman, 2014). As in previous work, a simple pictorial vignette showed a speaker requesting objects; in our case, the objects were lying on tables to either side of the speaker. On one table, there was an object of type A while on the other table was an object of type A and one of type B (see Figure \ref{fig:fig1}). The speaker always referred to the table with the two objects and -- ambiguously -- requested an object using a non-word (e.g.~dax). Based on the analysis above, we expected listeners to reason as follows: the speaker had the option to refer to one of the two tables. The most informative way to refer to object A would have been to refer to the table with only object A on it. The speaker intentionally chose to refer to the other table instead which suggests that they want object B. In the following six experiments we tested if this inference depends on the type of (non-)linguistic signals the speaker used (Experiments 1a and 1b), the speaker's epistemic state (Experiment 2), and the intentional production of all aspects of the utterance (Experiments 3a - 3c).
+
+\hypertarget{experiment-1a}{%
+\section{Experiment 1a}\label{experiment-1a}}
+
+Our first experiment tested whether participants made similar pragmatic inferences from linguistic and non-linguistic signals, comparing 1) looking and labeling the object and 2) pointing at and labeling the object with 3) pointing alone and 4) looking alone.
+
+\hypertarget{methods}{%
+\subsection{Methods}\label{methods}}
+
+The experiment was pre-registered at: \url{https://osf.io/qcwr8}. The code to run all experiments reported in this paper are available in the following public repository: \url{https://github.com/manuelbohn/prag-int}.
+
+\hypertarget{participants}{%
+\subsubsection{Participants}\label{participants}}
+
+Participants in all experiments were recruited via Amazon Mechanical Turk (MTurk) and required to have US IP addresses. They received payment equivalent to an hourly wage of \textasciitilde{} \$9. The sample size for all experiments (except Experiment 1b) was planned so as to have 120 observations (total number of trials) per cell. Participants were excluded when they failed to select known objects (a car and a ball) during training trials. The planned sample size for Experiment 1a was 60. Three participants did not provide valid data so that the final sample size for Experiment 1 was 57. Data was collected in March 2018.
+
+\hypertarget{material}{%
+\subsubsection{Material}\label{material}}
+
+All experiments were framed as word learning games in which animal characters would make requests and participants would have to select the corresponding objects. They were implemented as a website using \texttt{HTML} and \texttt{JavaScript} to which participants were directed via MTurk. Animals were cartoon figures that could be animated. Objects were novel objects drawn for the purpose of the study. For each animal, we recorded a set of utterances (one native English speaker per animal). The scene for all experiments involved the animal standing between two tables, one with two novel objects (A and B), and the other with one novel object (A) (see Figure \ref{fig:fig1}A). Each trial involved a different animal and different objects. Participants responded by clicking on objects on the screen.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{../figures/fig1} 
+
+}
+
+\caption{Screenshots from the experiments. Panel A shows the look (left) and point (right) configuration, which were either paired with a verbal utterance or not to yield the four conditions of Experiment 1a and 1b. Panel B shows the two control conditions barrier (left) and later (right - note that the object on the left table is slightly transparent to show that it is just appearing) from Experiment 2. Panel C shows the three control conditions: person (left), bell (middle) and tornado (right) from Experiments 3a to 3c.}\label{fig:fig1}
+\end{figure}
+
+\hypertarget{procedure}{%
+\subsubsection{Procedure}\label{procedure}}
+
+All experiments started with an introduction to the animals and two training trials in which familiar objects were requested (car and ball). Next, the animal turned to the table with the two objects (A and B). At this point, participants had to select which object they thought the animal had requested. The four conditions differed in how animals made the request. In the \emph{look and label} condition -- the reference condition -- the animal turned towards the table with the two objects and said ``Oh cool, there is a {[}non-word{]} on the table, how neat, can you give me the {[}non-word{]}?''. In the \emph{point and label} condition, in addition to turning, the animal pointed towards the table while making the same request. In the \emph{point} condition, the animal turned and pointed but did not utter the request. In the \emph{look} condition, the animal only turned towards the table, without pointing or uttering. In all conditions, ``Can you give {[}him/her{]} the toy she wants'' was written above the animal as soon as they turned.
+
+In all conditions, participants could infer that the animal requested object B via the counter-factual inferences that, if the animal had wanted to request object A, they would have pointed to the table with only object A (this being the most informative way to refer to object A). Thus, we coded as ``correct'' when participants selected object B. Participants completed two trials per condition and thus eight trials in total. The order of conditions was randomized.
+
+\hypertarget{analysis}{%
+\subsubsection{Analysis}\label{analysis}}
+
+All analyses were run in \texttt{R} (R Core Team, 2024). To compare performance against a level expected by chance (50\%), we used one-sample Bayesian t-tests via the function \texttt{ttestBF} from the \texttt{BayesFactor} package (Morey \& Rouder, 2024). To compare conditions, we used Bayesian generalized linear mixed models fit via the function \texttt{brm} from the \texttt{brms} package (Bürkner, 2017). Regression models for all experiments included fixed effects for condition and random effects for participant and item with random slopes for condition within each of them (\texttt{brms} notation: \texttt{correct\ \textasciitilde{}\ condition\ +\ (condition\ \textbar{}id)\ +\ (condition\ \textbar{}agent)}). All analysis used default priors implemented in the respective packages.
+
+\hypertarget{results}{%
+\subsection{Results}\label{results}}
+
+\begin{table}[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:tab1}Comparison against chance level.}
+
+\begin{tabular}{llrrr}
+\toprule
+Experiment & \multicolumn{1}{c}{Condition} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{BF}\\
+\midrule
+Experiment 1a & Test - Look & 0.81 & 0.30 & 7.5e+07\\
+ & Test - Look + Label & 0.80 & 0.28 & 1.3e+08\\
+ & Test - Point & 0.77 & 0.30 & 1.9e+06\\
+ & Test - Point + Label & 0.79 & 0.33 & 1.1e+06\\
+Experiment 1b & Test - Look & 0.80 & 0.32 & 8.52\\
+ & Test - Look + Label & 0.78 & 0.25 & 13.56\\
+ & Test - Point & 0.78 & 0.22 & 38.97\\
+ & Test - Point + Label & 0.80 & 0.22 & 8.94\\
+Experiment 2 & Control - Barrier & 0.51 & 0.37 & 0.17\\
+ & Control - Later & 0.45 & 0.42 & 0.22\\
+ & Test - Look + Label & 0.67 & 0.40 & 3.52\\
+Experiment 3a & Control - Person & 0.64 & 0.38 & 1.24\\
+ & Test - Look + Label & 0.75 & 0.33 & 93.07\\
+Experiment 3b & Control - Bell & 0.59 & 0.34 & 0.5\\
+ & Test - Look + Label & 0.74 & 0.29 & 303.12\\
+Experiment 3c & Control - Tornado & 0.53 & 0.32 & 0.23\\
+ & Test - Look + Label & 0.80 & 0.28 & 7.5e+03\\
+\bottomrule
+\addlinespace
+\end{tabular}
+
+\begin{tablenotes}[para]
+\normalsize{\textit{Note.} BF = Bayes factor in favor of the hypothesis that performance is different from chance (50\% correct).}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{center}
+
+\end{table}
+
+Participants performed above chance in all four conditions, that is, all Bayes Factors indicated very strong evidence in favor of the hypothesis that performance was different from 50\% correct (Lee \& Wagenmakers, 2014, see Table \ref{tab:tab1} and Figure \ref{fig:fig2}). Performance in none of the conditions was reliably different (i.e.~all 95\% CrI included zero) from the \emph{look and label} condition (reference condition); \emph{point and label}: \(\beta\) = 0.29, 95\% CrI (-0.75 - 1.72); \emph{point}: \(\beta\) = 0.10, 95\% CrI (-0.92 - 1.53); \emph{look}: \(\beta\) = 0.26, 95\% CrI (-0.64 - 1.42). Bayes Factors for the direct comparisons to the \emph{look and label} condition were all smaller than 1, suggesting moderate evidence in favor of the null hypothesis of no difference (\emph{point and label}: 0.15, \emph{point}: 0.17, \emph{look}: 0.15; note that this analysis was not pre-registered).
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{../figures/fig2} 
+
+}
+
+\caption{Results for Experiment 1a and 1b (A) and Experiment 2 (B). Transparent dots show aggregated data from individual participants (slightly jittered to avoid overplotting), crosses represent condition means, error bars are 95\% CIs. Dashed line indicates performance expected by chance. Color in A shows the two experiments.}\label{fig:fig2}
+\end{figure}
+
+\hypertarget{discussion}{%
+\subsection{Discussion}\label{discussion}}
+
+The results of Experiment 1a showed that the way in which the speaker made a request, be it verbal or non-verbal or including pointing or not, did not affect participants' inferences. In all conditions, performance was clearly above chance. Taken together, this suggests that informativeness inferences are general inferences about (rational) intentional behavior and not bound to a particular class of communicative signals. However, an object to this result could be that the similarities between conditions was a carry-over effect of out within-subject design. That is, the inference might have carried over from e.g.~the \emph{look and label} conditions to conditions involving no labels. To rule out this objection, we conducted Experiment 1b.
+
+\hypertarget{experiment-1b}{%
+\section{Experiment 1b}\label{experiment-1b}}
+
+Experiment 1b was a between-subject replication of Experiment 1a. It was pre-registered at: \url{https://osf.io/3vpqb}.
+
+\hypertarget{participants-1}{%
+\subsubsection{Participants}\label{participants-1}}
+
+The planned sample size for Experiment 1b was 60. Sixteen participants did not provide valid data so that the final sample size for Experiment 1b was 44. Data was collected in March 2018.
+
+\hypertarget{material-1}{%
+\subsubsection{Material}\label{material-1}}
+
+The material was the same as in Experiment 1a.
+
+\hypertarget{procedure-1}{%
+\subsubsection{Procedure}\label{procedure-1}}
+
+The procedure was identical to Experiment 1a, except that participants were randomly assigned to one of the four conditions.
+
+\hypertarget{analysis-1}{%
+\subsubsection{Analysis}\label{analysis-1}}
+
+The only difference in the analysis was that the regression model did not include random slopes for condition within subject because subjects only completed one condition.
+
+\hypertarget{results-1}{%
+\subsubsection{Results}\label{results-1}}
+
+The results mirrored those of Experiment 1a. Performance was above chance (see Table \ref{tab:tab1} and Figure \ref{fig:fig2}) and none of the conditions was reliably different from the \emph{look and label} condition; \emph{point and label}: \(\beta\) = 0.28, 95\% CrI (-2.59 - 3.04); \emph{point}: \(\beta\) = -0.15, 95\% CrI (-2.72 - 2.40); \emph{look}: \(\beta\) = 0.53, 95\% CrI (-2.09 - 3.18). Bayes Factors for the direct comparisons to the \emph{look and label} condition were all smaller than 1 and suggested anecdotal evidence in favor of the null hypothesis of no difference (\emph{point and label}: 0.41, \emph{point}: 0.38, \emph{look}: 0.38; note that this analysis was not pre-registered).
+
+\hypertarget{discussion-1}{%
+\subsection{Discussion}\label{discussion-1}}
+
+Experiment 1b suggests that the results of Experiment 1a do not reflect simple carry-over effects and supports the conclusion that informativeness inferences are computed independent of particular communicative signals.
+
+\hypertarget{experiment-2}{%
+\section{Experiment 2}\label{experiment-2}}
+
+In Experiment 2, we tested whether the pragmatic inference of Experiment 1 involves reasoning about the speaker's epistemic states. The counter-factual inference involves that the speaker is aware of object A on both tables: roughly, if the speaker had wanted object A, they would have looked at the table with only object A on it (which they were aware of). Thus, if this would not be the case, the inference should go away. We tested this hypothesis by contrasting the \emph{look and label} condition from Experiment 1a with two control conditions, one in which a barrier blocked the speaker's view and one in which an object appeared only after the speaker made their request. Experiment 2 was pre-registered at \url{https://osf.io/c2gjf}.
+
+\hypertarget{participants-2}{%
+\subsubsection{Participants}\label{participants-2}}
+
+The planned and achieved sample size for Experiment 2 was 40. Data was collected in May 2018.
+
+\hypertarget{material-2}{%
+\subsubsection{Material}\label{material-2}}
+
+The material was the same as in Experiment 1a.
+
+\hypertarget{procedure-2}{%
+\subsubsection{Procedure}\label{procedure-2}}
+
+The procedure for the \emph{look and label} condition was identical to Experiment 1. In the \emph{later} condition, the table containing only object A was empty when the animal turned and made their request. After the request was made but before participants could make a choice, object A appeared on the previously empty table. Thus, when selecting, the scene was identical to the \emph{look and label} condition -- but the speaker could not have taken into account the presence of object A on the other table when making the request. In the \emph{barrier} condition, a black barrier was blocking the agent's (but not the participants) view to the table with only object A (see Figure \ref{fig:fig1}B). Participants completed three trials per condition and thus nine trials in total. The order of trials was randomized.
+
+\hypertarget{analysis-2}{%
+\subsubsection{Analysis}\label{analysis-2}}
+
+The analysis was identical to Experiment 1a. The reference category for condition in the regression model was the \emph{look and label} condition.
+
+\hypertarget{results-2}{%
+\subsubsection{Results}\label{results-2}}
+
+The Bayes factors suggest that performance was different from chance in the \emph{look and label} condition but not in the two control conditions. (see Table \ref{tab:tab1} and Figure \ref{fig:fig2}). Note that performance in the \emph{look and label} condition was somewhat lower compared to Experiment 1a and 1b. We suspect this to be random fluctuation because the procedure and stimuli were identical to all other experiments. Importantly, however, object B was select less frequently in the two control conditions compared to the \emph{look and label} condition; \emph{later}: \(\beta\) = -2, 95\% CrI (-3.78 - -0.49); \emph{barrier}: \(\beta\) = -1.39, 95\% CrI (-2.66 - -0.30).
+
+\hypertarget{discussion-2}{%
+\subsection{Discussion}\label{discussion-2}}
+
+Experiment 2 suggests that participants do indeed take the speaker's epistemic state into account when computing informativeness inferences. In situations when the speaker was unaware of object A on the second table (and could thus not have referred to object A in a more informative way), participants did not make the inference that the speaker was referring to object B. The second critical component of the inference is that the communicative signal is produced intentionally. In Experiment 3, we varied whether or not the utterance reflected an intentional action.
+
+\hypertarget{experiment-3a}{%
+\section{Experiment 3a}\label{experiment-3a}}
+
+In the previous experiment, before producing the verbal utterance, the speaker intentionally turned, gestured and gazed towards one of the tables. As outlined above, we see these actions as an essential part of the utterance that play a crucial role in deriving the pragmatic inference. In the following three experiments, we systematically tested this idea by manipulating whether or not the speaker produced the movements and gestures preceding the verbal utterance intentionally and communicatively. In Experiment 3a, the agent's turning was not part of an intentional communicative action: the agent turned towards the table with the two objects because a second agent appeared there. Experiments 3a was pre-registered together with 3b an 3c at: \url{https://osf.io/nr3da}.
+
+\hypertarget{participants-3}{%
+\subsection{Participants}\label{participants-3}}
+
+The planned and achieved sample size for Experiments 3a was 30. Data was collected in May 2018.
+
+\hypertarget{material-3}{%
+\subsubsection{Material}\label{material-3}}
+
+The material was the same as in Experiment 1a except that a schematic door was added to the left and right of the speaker (see Figure \ref{fig:fig1}C).
+
+\hypertarget{procedure-3}{%
+\subsubsection{Procedure}\label{procedure-3}}
+
+The procedure for the \emph{look and label} condition was identical to previous experiments except that after turning to the table with the two objects, the object on the other table disappeared. Only after that did the animal make the request. In the \emph{person} condition, a second animal appeared next to the table with the two objects, saying ``hi''. Next, the speaker animal turned towards this second animal (as if reacting to the ``hi''). Then, the object on the table containing only object A disappeared and so did the second animal. The object was removed so that the speaker animal could not have turned back to the table with the single object in case they wanted to request object A. Then the speaker animal made the request. Thus, in both conditions, the test situation was identical (the speaker animal facing the table with the two objects while the other table was empty) but differed in whether or not the turning of the animal was apparently part of the utterance or had a different potential explanation. Participants completed four trials per condition and thus eight trials in total. The order of conditions was randomized.
+
+\hypertarget{analysis-3}{%
+\subsubsection{Analysis}\label{analysis-3}}
+
+The analysis was identical to Experiment 1a and 2. The reference category for condition in the regression model was the \emph{look and label} condition.
+
+\hypertarget{results-3}{%
+\subsubsection{Results}\label{results-3}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{../figures/fig3} 
+
+}
+
+\caption{Results for Experiment 3a, 3b and 3c. Transparent dots show aggregated data from individual participants (slightly jittered to avoid overplotting), crosses represent condition means, error bars are 95\% CIs. Dashed line indicates performance expected by chance.}\label{fig:fig3}
+\end{figure}
+
+Performance was clearly above chance in the \emph{look and label} condition. There was considerably less evidence for performance being above chance in the \emph{person} condition (see Table \ref{tab:tab1} and Figure \ref{fig:fig3}). However, performance in the \emph{person} condition was not reliably different from the \emph{look and label} condition: \(\beta\) = -0.86, 95\% CrI (-2.74 - 0.86).
+
+\hypertarget{discussion-3}{%
+\subsection{Discussion}\label{discussion-3}}
+
+The results of Experiment 3a were somewhat inconclusive. Performance was numerically better in the \emph{look and label} condition but it was not reliably so compared to the control condition. One potential explanation for this result could be that participants assumed the second animal's actions were not independent of the speaker animal's request but were deliberate attempts to draw the speaker animal's attention to the table with the two objects, perhaps because this would be the one the speaker animal had a preference for. Of course, alternative explanations are possible. Thus, in Experiment 3b, we removed the second animal.
+
+\hypertarget{experiment-3b}{%
+\section{Experiment 3b}\label{experiment-3b}}
+
+\hypertarget{participants-4}{%
+\subsection{Participants}\label{participants-4}}
+
+The planned and achieved sample size for Experiment 3b was 30. Data was collected in May 2018.
+
+\hypertarget{material-4}{%
+\subsubsection{Material}\label{material-4}}
+
+The materials were the same as in Experiment 1a and 2. The schematic door introduced in Experiment 3a was removed (see Figure \ref{fig:fig1}C).
+
+\hypertarget{procedure-4}{%
+\subsubsection{Procedure}\label{procedure-4}}
+
+The procedure for the \emph{look and label} condition was identical to Experiment 3a, that is after turning to the table with the two objects, the object on the other table disappeared. In the \emph{bell} condition, a bell appeared on the side with the table with objects A and B, accompanied by a ringing sound, upon which the animal turned to that side. Next, the object on the table containing only object A disappeared and the animal made the request. Once again, the test situation was identical in both conditions but differed in whether or not the turning of the animal appeared to be part of the utterance or whether it had a plausible alternative explanation. Participants completed four trials per condition and thus eight trials in total. The order of conditions was randomized.
+
+\hypertarget{analysis-4}{%
+\subsubsection{Analysis}\label{analysis-4}}
+
+The analysis was identical to previous experiments. The reference category for condition in the regression model was again the \emph{look and label} condition.
+
+\hypertarget{results-4}{%
+\subsubsection{Results}\label{results-4}}
+
+Performance in the \emph{look and label} condition was clearly above chance. In contrast, there was no evidence in favor of this hypothesis in the \emph{bell} condition (see Table \ref{tab:tab1} and Figure \ref{fig:fig3}). When directly comparing the conditions, we found that performance was numerically better in the \emph{look and label} condition but the 95\% CrI overlapped with zero: \(\beta\) = -0.98, 95\% CrI (-2.06 - 0.07).
+
+\hypertarget{discussion-4}{%
+\subsection{Discussion}\label{discussion-4}}
+
+Experiment 3b provides tentative support for the idea that participants take into account whether or not a communicative signal was produced intentionally. Yet, the results were not very strong. One reason for a weaker differentiation between the two conditions could be that the turning was still perceived as an intentional action, which might have coincided with the appearance of the bell. In Experiment 3c, we made it clearer that the turning towards the table with the two objects was not an intentional action.
+
+\hypertarget{experiment-3c}{%
+\section{Experiment 3c}\label{experiment-3c}}
+
+\hypertarget{participants-5}{%
+\subsection{Participants}\label{participants-5}}
+
+The planned and achieved sample size for Experiments 3c was 30. Data was collected in May 2018.
+
+\hypertarget{material-5}{%
+\subsubsection{Material}\label{material-5}}
+
+The material was the same as in Experiment 3b (see Figure \ref{fig:fig1}C).
+
+\hypertarget{procedure-5}{%
+\subsubsection{Procedure}\label{procedure-5}}
+
+The procedure for the \emph{look and label} condition was slightly modified: the animal first turned to the table with the two objects, then to the table with one object and then back again to the table with the two objects. Then the animal made the usual request. This turning was added to mimic the motion and timing of the \emph{tornado} condition. Here, a tornado appeared and whirled the animal around multiple times and up into the air. Next the tornado disappeared, the animal landed on the ground facing the table with the two objects. When the animal landed, the object on the table containing only object A disappeared. Then the animal made the request. Once again, the test situation was identical in both conditions. Participants completed four trials per condition and thus eight trials in total. The order of conditions was randomized.
+
+\hypertarget{analysis-5}{%
+\subsubsection{Analysis}\label{analysis-5}}
+
+The analysis was identical to previous experiments. The reference category for condition in the regression model was again the \emph{look and label} condition.
+
+\hypertarget{results-5}{%
+\subsubsection{Results}\label{results-5}}
+
+Performance in the was clearly above chance in the \emph{look and label} condition but not the \emph{tornado} condition (see Table \ref{tab:tab1} and Figure \ref{fig:fig3}). When directly comparing the conditions, performance was reliably better in the \emph{look and label} condition: \(\beta\) = -1.79, 95\% CrI (-2.96 - -0.82).
+
+\hypertarget{discussion-5}{%
+\subsection{Discussion}\label{discussion-5}}
+
+When it was unambiguously clear that the movements and gestures preceding the verbal utterance were not produced intentionally, participants did not make the informativeness inference. Together with the somewhat weaker evidence provided by Experiments 3a and 3b, this result supports the interpretation that participants base their pragmatic inferences based on an assessment of the speaker's intentions when producing the utterance.
+
+\hypertarget{general-discussion}{%
+\section{General discussion}\label{general-discussion}}
+
+Across six experiments, we tested the implications of construing pragmatic inference as a social-cognitive reasoning process about intentional communicative action. We used pragmatic word learning as a case study to test three predictions. First, we found that listeners make very similar pragmatic inferences based on linguistic and non-linguistic signals. This result supports the view that listeners make pragmatic inferences about many forms of communicative behavior, not just language. Second, consistent with prior work, we found pragmatic inferences to be conditional on what the speaker knows when producing an utterance and thus which alternative utterances they could have produced. Finally, we showed the importance of non-linguistic aspects of an utterance: when the movements and gestures preceding the verbal utterance were not part of an intentional communicative act, the pragmatic inference was lost.
+
+In particular, the results of Experiments 3a to 3c contribute to connecting work on pragmatic inferences to the literature emphasizing the role of intentionality in the evolution of communication (Dennett, 1983; Tomasello, 2008; Townsend et al., 2017). By demonstrating that pragmatic inferences are contingent upon the intentional production of non-linguistic signals, we underscore the significance of communicative intentions in shaping the interpretation of utterances. This finding aligns with theoretical frameworks emphasizing the cooperative nature of communication, wherein speakers actively manipulate signals to convey specific meanings to listeners (Grice, 1991).
+
+Our analysis of the reasoning process underlying pragmatic inferences has been inspired by computational cognitive models (Frank \& Goodman, 2012; Franke \& Jäger, 2016; Scontras, Tessler, \& Franke, 2021). Recent modeling studies have shown how the pragmatic inference processes described here interact with social-contextual information (i.e., common ground) during language learning and comprehension (Bohn, Tessler, Merrick, \& Frank, 2021, 2022). Together with the findings reported here, these results highlight the value of computational models for explicating the cognitive processes that underlie communicative interactions.
+
+Our study has important limitations. First, our case study was a single pragmatic inference about word meaning. This phenomenon has been studied in prior work and presented a convenient case study, but future work should ideally devise ways to test the same manipulations in the context of other types of pragmatic inference. Additionally, we tested a convenience sample of English-speaking adults with a US IP address. Our parameter estimates do not represent measures of any particular population, and whether the results would generalize to other languages or cultural settings is an open question. Since we make our materials openly available, adaptation to other languages would be relatively easy {[}and indeed German versions of these tasks yield interpretable data with children; Bohn, Tessler, Kordt, Hausmann, and Frank (2023){]}. Furthermore, it would be interesting to conduct comparable experiments with children to better understand the developmental trajectories giving rise to the pattern reported for adults.
+
+Taken together, this study highlights how experimental, computational, and evolutionary approaches can jointly elucidate the mechanisms underlying pragmatic inferences and, more broadly, human communication.
+
+\newpage
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-bergen2012speaker}{}}%
+Bergen, L., \& Grodner, D. J. (2012). Speaker knowledge influences the comprehension of pragmatic inferences. \emph{Journal of Experimental Psychology: Learning, Memory, and Cognition}, \emph{38}(5), 1450.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bohn2019pervasive}{}}%
+Bohn, M., \& Frank, M. C. (2019). The pervasive role of pragmatics in early language. \emph{Annual Review of Developmental Psychology}, \emph{1}(1), 223--249.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bohn2023individual}{}}%
+Bohn, M., Tessler, M. H., Kordt, C., Hausmann, T., \& Frank, M. C. (2023). An individual differences perspective on pragmatic abilities in the preschool years. \emph{Developmental Science}, \emph{26}(6), e13401.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bohn2021young}{}}%
+Bohn, M., Tessler, M. H., Merrick, M., \& Frank, M. C. (2021). How young children integrate information sources to infer the meaning of words. \emph{Nature Human Behaviour}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bohn2022predicting}{}}%
+Bohn, M., Tessler, M. H., Merrick, M., \& Frank, M. C. (2022). Predicting pragmatic cue integration in adults' and children's inferences about novel word meanings. \emph{Journal of Experimental Psychology: General}, \emph{151}(11), 2927.
+
+\leavevmode\vadjust pre{\hypertarget{ref-breheny2013taking}{}}%
+Breheny, R., Ferguson, H. J., \& Katsos, N. (2013). Taking the epistemic step: Toward a model of on-line access to conversational implicatures. \emph{Cognition}, \emph{126}(3), 423--440.
+
+\leavevmode\vadjust pre{\hypertarget{ref-brms}{}}%
+Bürkner, P.-C. (2017). {brms}: An {R} package for {Bayesian} multilevel models using {Stan}. \emph{Journal of Statistical Software}, \emph{80}(1), 1--28. \url{https://doi.org/10.18637/jss.v080.i01}
+
+\leavevmode\vadjust pre{\hypertarget{ref-clark1996using}{}}%
+Clark, H. H. (1996). \emph{Using language}. Cambridge: Cambridge University Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-csibra2009natural}{}}%
+Csibra, G., \& Gergely, G. (2009). Natural pedagogy. \emph{Trends in Cognitive Sciences}, \emph{13}(4), 148--153.
+
+\leavevmode\vadjust pre{\hypertarget{ref-dennett1983intentional}{}}%
+Dennett, D. C. (1983). Intentional systems in cognitive ethology: The {``panglossian paradigm''} defended. \emph{Behavioral and Brain Sciences}, \emph{6}(3), 343--355.
+
+\leavevmode\vadjust pre{\hypertarget{ref-frank2012predicting}{}}%
+Frank, M. C., \& Goodman, N. D. (2012). Predicting pragmatic reasoning in language games. \emph{Science}, \emph{336}(6084), 998--998.
+
+\leavevmode\vadjust pre{\hypertarget{ref-frank2014inferring}{}}%
+Frank, M. C., \& Goodman, N. D. (2014). Inferring word meanings by assuming that speakers are informative. \emph{Cognitive Psychology}, \emph{75}, 80--96.
+
+\leavevmode\vadjust pre{\hypertarget{ref-franke2016probabilistic}{}}%
+Franke, M., \& Jäger, G. (2016). Probabilistic pragmatics, or why bayes' rule is probably important for pragmatics. \emph{Zeitschrift f{ü}r Sprachwissenschaft}, \emph{35}(1), 3--44.
+
+\leavevmode\vadjust pre{\hypertarget{ref-grice1991studies}{}}%
+Grice, H. P. (1991). \emph{Studies in the way of words}. Cambridge, MA: Harvard University Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-heintz2023expression}{}}%
+Heintz, C., \& Scott-Phillips, T. (2023). Expression unleashed: The evolutionary and cognitive foundations of human communication. \emph{Behavioral and Brain Sciences}, \emph{46}, e1.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kampa2020four}{}}%
+Kampa, A., \& Papafragou, A. (2020). Four-year-olds incorporate speaker knowledge into pragmatic inferences. \emph{Developmental Science}, \emph{23}(3), e12920.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kampa2023children}{}}%
+Kampa, A., \& Papafragou, A. (2023). Children and adults use pragmatic principles to interpret non-linguistic symbols. \emph{Journal of Memory and Language}, \emph{131}, 104429.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kampa2024preschool}{}}%
+Kampa, A., Richards, C., \& Papafragou, A. (2024). Preschool children generate quantity inferences from both words and pictures. \emph{Journal of Experimental Child Psychology}, \emph{239}, 105805.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lee2014bayesian}{}}%
+Lee, M. D., \& Wagenmakers, E.-J. (2014). \emph{Bayesian cognitive modeling: A practical course}. Cambridge University Press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-levinson2000presumptive}{}}%
+Levinson, S. C. (2000). \emph{Presumptive meanings: The theory of generalized conversational implicature}. Cambridge, MA: MIT press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-moore2017social}{}}%
+Moore, R. (2017). Social cognition, stag hunts, and the evolution of language. \emph{Biology \& Philosophy}, \emph{32}(6), 797--818.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bayesfactor}{}}%
+Morey, R. D., \& Rouder, J. N. (2024). \emph{BayesFactor: Computation of bayes factors for common designs}. Retrieved from \url{https://CRAN.R-project.org/package=BayesFactor}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-base}{}}%
+R Core Team. (2024). \emph{R: A language and environment for statistical computing}. Vienna, Austria: R Foundation for Statistical Computing. Retrieved from \url{https://www.R-project.org/}
+
+\leavevmode\vadjust pre{\hypertarget{ref-sauerland2012computation}{}}%
+Sauerland, U. (2012). The computation of scalar implicatures: Pragmatic, lexical or grammatical? \emph{Language and Linguistics Compass}, \emph{6}(1), 36--49.
+
+\leavevmode\vadjust pre{\hypertarget{ref-scontras2021practical}{}}%
+Scontras, G., Tessler, M. H., \& Franke, M. (2021). A practical introduction to the rational speech act modeling framework. \emph{arXiv}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sperber2001relevance}{}}%
+Sperber, D., \& Wilson, D. (2001). \emph{Relevance: Communication and cognition} (2nd ed.). Cambridge, MA: Blackwell Publishers.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sterelny2017code}{}}%
+Sterelny, K. (2017). From code to speaker meaning. \emph{Biology \& Philosophy}, \emph{32}(6), 819--838.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tomasello2008origins}{}}%
+Tomasello, M. (2008). \emph{Origins of human communication}. Cambridge, MA: MIT press.
+
+\leavevmode\vadjust pre{\hypertarget{ref-townsend2017exorcising}{}}%
+Townsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., et al.others. (2017). Exorcising g rice's ghost: An empirical approach to studying intentional communication in animals. \emph{Biological Reviews}, \emph{92}(3), 1427--1433.
+
+\leavevmode\vadjust pre{\hypertarget{ref-wilson2023role}{}}%
+Wilson, E., Lawrence, R., \& Katsos, N. (2023). The role of perspective-taking in children's quantity implicatures. \emph{Language Learning and Development}, \emph{19}(2), 167--187.
+
+\end{CSLReferences}
+
+
+\end{document}

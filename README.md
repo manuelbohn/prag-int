@@ -8,7 +8,7 @@
 
 ## Paper
 
-Bohn, M. & Frank, M. C. (2024). [Pragmatics as social inference about intentional action](https://osf.io/preprints/psyarxiv/35nr4). *PsyArXiv*
+Bohn, M. & Frank, M. C. (2025). [Pragmatics as social inference about intentional action](https://osf.io/preprints/psyarxiv/35nr4). *Open Mind*
 
 ## Structure
 
